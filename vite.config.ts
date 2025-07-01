@@ -7,4 +7,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  // Configuración base para GitHub Pages
+  base: '/test_arquitectura/',  // Cambia esto por el nombre de tu repositorio
 });
