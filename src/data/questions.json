@@ -187,7 +187,7 @@
       "Microsoft Azure Media Services",
       "Salesforce Media Cloud"
     ],
-    "correctAnswer": null,
+    "correctAnswer": 0,
     "answered": false,
     "id": 16
   },
@@ -931,7 +931,7 @@
       "Azure Logic Apps",
       "Oracle Process Cloud Service"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "answered": false,
     "id": 78
   },
@@ -1075,7 +1075,7 @@
       "DELETE",
       "OPTIONS"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "answered": false,
     "id": 90
   },
@@ -1279,7 +1279,7 @@
       "Microsoft Azure Cosmos DB",
       "Oracle NoSQL Database"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 107
   },
@@ -1291,7 +1291,7 @@
       "Microsoft Azure Active Directory",
       "Oracle Identity Cloud Service"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 108
   },
@@ -1303,7 +1303,7 @@
       "Microsoft Azure Bot Service",
       "Oracle Digital Assistant"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 109
   },
@@ -1315,7 +1315,7 @@
       "Microsoft Azure IoT Hub",
       "Oracle Internet of Things Cloud Service"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 110
   },
@@ -1375,7 +1375,7 @@
       "Azure Stream Analytics",
       "Oracle IoT Analytics Cloud"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 115
   },
@@ -1435,7 +1435,7 @@
       "Microsoft Azure Container Instances",
       "Oracle Container Engine for Kubernetes"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 120
   },
@@ -1459,7 +1459,7 @@
       "Microsoft Azure App Service",
       "IBM Cloud Foundry"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 122
   },
@@ -1471,7 +1471,7 @@
       "Microsoft Azure Container Instances",
       "IBM Cloud Kubernetes Service"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 123
   },
@@ -1507,7 +1507,7 @@
       "Microsoft Azure Cosmos DB",
       "IBM Cloudant"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 126
   },
@@ -1519,7 +1519,7 @@
       "Microsoft Azure Active Directory",
       "IBM App ID"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 127
   },
@@ -1591,7 +1591,7 @@
       "Azure Stream Analytics",
       "IBM Watson IoT Platform Analytics"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 133
   },
@@ -1771,7 +1771,7 @@
       "DELETE",
       "OPTIONS"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "answered": false,
     "id": 148
   },
@@ -1894,5 +1894,17 @@
     "correctAnswer": 0,
     "answered": false,
     "id": 158
+  },
+  {
+    "question": "¿Cuál de los siguientes servicios SOAP en la nube proporciona servicios de aprendizaje automático y análisis de datos?",
+    "options": [
+      "Amazon Machine Learning",
+      "Google Cloud AutoML",
+      "Microsoft Azure Machine Learning",
+      "Salesforce Einstein Analytics"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 159
   }
 ]
