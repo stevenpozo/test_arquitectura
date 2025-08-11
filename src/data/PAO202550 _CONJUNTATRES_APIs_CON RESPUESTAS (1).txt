@@ -1,0 +1,360 @@
+¿Qué es una API en Java?
+A. Un lenguaje de programación
+B. Una Interfaz de Programación de Aplicaciones
+C. Un sistema operativo
+D. Un entorno de desarrollo
+ANSWER: B
+
+¿Cuál de las siguientes afirmaciones es cierta acerca de las APIs públicas?
+A. Solo pueden ser utilizadas por desarrolladores senior
+B. Están disponibles para uso general y documentadas para terceros
+C. Son secretas y no se pueden acceder externamente
+D. Solo pueden ser utilizadas en proyectos personales
+ANSWER: B
+
+En Java, ¿cómo se declara un método de una API pública?
+A. private void miMetodo()
+B. protected void miMetodo()
+C. public void miMetodo()
+D. void miMetodo()
+ANSWER: C
+
+¿Qué modificador de acceso se utiliza para indicar que un miembro de clase es visible solo en el mismo paquete?
+A. public
+B. private
+C. protected
+D. package-private
+ANSWER: D
+
+¿Cuál es el propósito principal de una API pública?
+A. Facilitar la comunicación entre aplicaciones locales
+B. Limitar el acceso a funciones internas
+C. Proporcionar una interfaz para que otras aplicaciones usen sus funciones
+D. Agregar características de seguridad a una aplicación
+ANSWER: C
+
+¿Qué es un API privado en Java?
+A. Una API que solo se puede acceder desde otros lenguajes de programación
+B. Una API utilizada solo por el equipo de desarrollo interno
+C. Una API que solo está disponible para empresas grandes
+D. Una API diseñada exclusivamente para aplicaciones web
+ANSWER: B
+
+¿Cuál de las siguientes opciones describe mejor la encapsulación en una API?
+A. Exponer todos los detalles internos de implementación
+B. Ocultar los detalles internos y proporcionar una interfaz clara
+C. Limitar el acceso solo a miembros públicos
+D. Eliminar todas las restricciones de acceso
+ANSWER: B
+
+¿Cuál es la diferencia entre una API y una implementación?
+A. No hay diferencia, son términos intercambiables
+B. La API es la parte visible y la implementación es cómo funciona internamente
+C. La implementación es la parte visible y la API es cómo funciona internamente
+D. La API es para programadores y la implementación para usuarios finales
+ANSWER: B
+
+¿Cuál es el propósito del modificador "final" en la declaración de un método de API?
+A. Indica que el método solo se puede llamar una vez
+B. Bloquea el acceso al método desde otras clases
+C. Se usa para declarar un método como estático
+D. Evita que las subclases anulen ese método
+ANSWER: D
+
+¿Qué tipo de API se suele utilizar para interactuar con servicios web en Java?
+A. API gráfica
+B. API de base de datos
+C. API RESTful
+D. API de interfaz de usuario
+ANSWER: C
+
+¿Cuál es la principal ventaja de usar APIs públicas en comparación con escribir todo el código desde cero?
+A. Mayor control sobre la funcionalidad
+B. Menor flexibilidad en la implementación
+C. Ahorro de tiempo y esfuerzo
+D. Mayor seguridad en la aplicación
+ANSWER: C
+
+¿Qué es un contrato de API?
+A. Un documento legal para el uso de una API
+B. Un acuerdo entre dos desarrolladores para compartir código
+C. Un conjunto de reglas y especificaciones que rigen cómo interactuar con una API
+D. Una tarjeta de identificación para acceder a una API privada
+ANSWER: C
+
+¿Cuál de las siguientes opciones es un ejemplo de una API Java popular?
+A. PythonAPI
+B. jQueryAPI
+C. JavaAPI
+D. AndroidAPI
+ANSWER: D
+
+¿Qué es un "endpoint" en el contexto de una API RESTful?
+A. El punto de inicio de un programa Java
+B. El método principal de una API
+C. La URL única que identifica un recurso en la API
+D. Una categoría de métodos en una API
+ANSWER: C
+
+¿Cuál de las siguientes afirmaciones es cierta acerca de la seguridad en las APIs públicas?
+A. La seguridad no es relevante para las APIs públicas
+B. La seguridad debe manejarse solo en las APIs privadas
+C. La seguridad es importante para prevenir accesos no autorizados
+D. La seguridad solo afecta el rendimiento de la API
+ANSWER: C
+
+Qué significa el acrónimo "SDK" en el contexto de APIs?
+A. Software de Desarrollo Kit
+B. Sistema de Desarrollo Kármico
+C. Sistema de Datos y Kernels
+D. Software de Datos y Kernels
+ANSWER: A
+
+¿Qué es Maven en el contexto del desarrollo de APIs en Java?
+A. Una plataforma para crear interfaces gráficas de usuario
+B. Una herramienta de construcción y gestión de proyectos
+C. Un marco de trabajo para pruebas unitarias
+D. Una API para manipular bases de datos
+ANSWER: B
+
+¿Cuál de las siguientes opciones describe mejor el proceso de "deserialización" en el contexto de APIs Java?
+A. Convertir un objeto en una secuencia de bytes
+B. Convertir una cadena de caracteres en un número entero
+C. Convertir una secuencia de bytes en un objeto
+D. Convertir un número entero en una cadena de caracteres
+ANSWER: C
+
+¿Qué es Javadoc en el contexto de APIs Java?
+A. Una herramienta para generar documentación a partir de comentarios en el código fuente
+B. Una herramienta de depuración en tiempo real
+C. Una API para el manejo de bases de datos
+D. Un lenguaje de programación para desarrollar interfaces gráficas
+ANSWER: A
+
+¿Qué significa el término "deprecated" en la documentación de una API?
+A. El término es irrelevante para las APIs
+B. Indica que un método ya no debe ser utilizado y puede ser eliminado en futuras versiones
+C. Se refiere a métodos que solo pueden ser utilizados por desarrolladores avanzados
+D. Indica que un método solo está disponible en versiones antiguas de la API
+ANSWER: B
+
+¿Qué es una "excepción" en el contexto de una API Java?
+A. Una característica opcional de la API
+B. Un tipo de dato numérico
+C. Un evento inesperado que puede ocurrir durante la ejecución de un programa
+D. Una forma de mejorar el rendimiento de la API
+ANSWER: C
+
+¿Cuál de las siguientes afirmaciones es cierta acerca de las APIs privadas?
+A. Son siempre más rápidas que las APIs públicas
+B. Están disponibles para cualquier desarrollador
+C. Están destinadas solo para el uso interno de una organización
+D. No requieren documentación ni pruebas
+ANSWER: C
+
+¿Cuál es una ventaja de tener una documentación detallada en una API?
+A. Hace que la API sea más rápida en términos de rendimiento
+B. No es necesario proporcionar documentación para una API
+C. Facilita a los desarrolladores comprender cómo usar correctamente la API
+D. Hace que la API sea más segura y menos accesible
+ANSWER: C
+
+¿Qué significa "API Key" en el contexto de seguridad de las APIs?
+A. Una clave que abre la puerta a todas las funcionalidades de una API
+B. Una contraseña utilizada para autenticarse en una API
+C. Una clave que solo es relevante para APIs privadas
+D. Una clave que solo se utiliza en APIs locales
+ANSWER: B
+
+¿Qué es la "autenticación" en el contexto de las APIs?
+A. El proceso de convertir una API pública en privada
+B. Un proceso para validar la integridad de los datos en una API
+C. Un método para verificar la identidad de un usuario o aplicación que accede a una API
+D. Un enfoque para ocultar todos los detalles internos de la implementación de la API
+ANSWER: C
+
+¿Qué significa "API" en el contexto de .NET?
+A. Asociación de Programadores Independientes
+B. Aplicación Interconectada
+C. Archivo de Procesamiento Intermedio
+D. Interfaz de Programación de Aplicaciones
+ANSWER: D
+
+¿Cuál de las siguientes opciones describe mejor una API pública?
+A. Accesible solo por el equipo de desarrollo interno
+B. Disponible para uso general y documentada para terceros
+C. Oculta completamente sus funciones y métodos
+D. Diseñada exclusivamente para aplicaciones de consola
+ANSWER: B
+
+En el contexto de .NET, ¿cómo se declara un método público en una API?
+A. void MiMetodo()
+B. public void MiMetodo()
+C. private void MiMetodo()
+D. protected void MiMetodo()
+ANSWER: B
+
+¿Qué modificador de acceso se utiliza para restringir un miembro de clase a la misma clase y a clases derivadas?
+A. private
+B. protected
+C. public
+D. internal
+ANSWER: B
+
+¿Cuál es el propósito principal de una API pública?
+A. Restringir el acceso a funciones internas
+B. Facilitar la comunicación entre aplicaciones locales
+C. Proporcionar una interfaz para que otras aplicaciones usen sus funciones
+D. Garantizar la compatibilidad con sistemas operativos específicos
+ANSWER: C
+
+¿Qué es una API privada en .NET?
+A. Una API que solo se puede acceder desde otros lenguajes de programación
+B. Una API diseñada solo para aplicaciones móviles
+C. Una API que solo está disponible para uso personal
+D. Una API utilizada solo por el equipo de desarrollo interno
+ANSWER: D
+
+¿Cuál de las siguientes opciones describe mejor la encapsulación en una API?
+A. Exponer todos los detalles internos de implementación
+B. Ocultar los detalles internos y proporcionar una interfaz clara
+C. Limitar el acceso solo a miembros protegidos
+D. Eliminar todos los métodos de una clase
+ANSWER: B
+
+¿Qué es un "namespace" en .NET?
+A. Una carpeta en el sistema de archivos
+B. Un contenedor que organiza tipos relacionados
+C. Un sinónimo de API en .NET
+D. Una unidad de almacenamiento en la nube
+ANSWER: B
+
+¿Qué es el "GAC" (Global Assembly Cache) en .NET?
+A. Una base de datos global para APIs
+B. Un sistema de gestión de archivos
+C. Un lugar donde se almacenan ensamblados compartidos
+D. Un espacio para guardar archivos temporales
+ANSWER: C
+
+¿Qué tipo de API se utiliza comúnmente para interactuar con servicios web en .NET?
+A. API gráfica
+B. API de base de datos
+C. API RESTful
+D. API de interfaz de usuario
+ANSWER: C
+
+¿Cuál es una ventaja de usar APIs públicas en lugar de escribir código desde cero?
+A. Mayor control sobre la funcionalidad
+B. Mayor complejidad en la implementación
+C. Ahorro de tiempo y esfuerzo
+D. Mayor aislamiento de errores
+ANSWER: C
+
+¿Qué es un "contrato de API"?
+A. Un acuerdo legal para el uso de una API
+B. Un conjunto de reglas y especificaciones que rigen cómo interactuar con una API
+C. Un archivo de configuración para una API
+D. Una clave secreta para acceder a una API
+ANSWER: B
+
+¿Cuál de las siguientes opciones es un ejemplo de una API popular en .NET?
+A. JavaAPI
+B. .NETAPI
+C. PythonAPI
+D. Entity Framework
+ANSWER: D
+
+¿Qué es un "endpoint" en el contexto de una API web?
+A. El punto de inicio de una aplicación .NET
+B. El método principal de una API
+C. La URL única que identifica un recurso en la API
+D. Una categoría de métodos en una API
+ANSWER: C
+
+¿Cuál de las siguientes afirmaciones es cierta acerca de la seguridad en las APIs públicas?
+A. La seguridad no es relevante para las APIs públicas
+B. La seguridad solo es importante en las APIs privadas
+C. La seguridad es importante para prevenir accesos no autorizados
+D. La seguridad solo afecta el rendimiento de la API
+ANSWER: C
+
+41.	¿Qué significa el acrónimo "SDK" en el contexto de APIs?
+A. Software de Desarrollo Kit
+B. Sistema de Desarrollo Kármico
+C. Sistema de Datos y Kernels
+D. Software de Datos y Kernels
+ANSWER: A
+
+Qué es NuGet en el contexto del desarrollo de APIs en .NET?
+A. Una plataforma de redes sociales para desarrolladores
+B. Una herramienta para la instalación y gestión de paquetes
+C. Un IDE (Entorno de Desarrollo Integrado) para .NET
+D. Una base de datos para almacenar APIs
+ANSWER: B
+
+¿Qué es la "serialización" en el contexto de APIs .NET?
+A. Convertir un objeto en una secuencia de bytes
+B. Convertir una cadena de caracteres en un número entero
+C. Convertir una secuencia de bytes en un objeto
+D. Convertir un número entero en una cadena de caracteres
+ANSWER: A
+
+¿Qué es XML Documentation (XMLDoc) en .NET?
+A. Un lenguaje de programación para .NET
+B. Una técnica de codificación de alto rendimiento
+C. Una forma de cifrar datos en una API
+D. Una forma de generar documentación desde el código fuente
+ANSWER: D
+
+¿Qué significa el término "obsolete" en la documentación de una API?
+A. El término es irrelevante en el contexto de APIs
+B. Indica que un método ya no debe ser utilizado y puede ser eliminado en futuras versiones
+C. Se refiere a métodos que solo pueden ser utilizados por desarrolladores avanzados
+D. Indica que un método solo está disponible en versiones antiguas de la API
+ANSWER: B
+
+¿Qué es una "excepción" en el contexto de una API .NET?
+A. Una característica opcional de la API
+B. Un tipo de dato numérico
+C. Un evento inesperado que puede ocurrir durante la ejecución de un programa
+D. Una forma de mejorar el rendimiento de la API
+ANSWER: C
+
+¿Cuál de las siguientes afirmaciones es cierta acerca de las APIs privadas en .NET?
+A. Siempre están disponibles para cualquier desarrollador
+B. Están destinadas solo para el uso interno de una organización
+C. No necesitan documentación ni pruebas
+D. Solo pueden ser utilizadas en aplicaciones de consola
+ANSWER: B
+
+¿Cuál es una ventaja de proporcionar una documentación detallada en una API?
+A. Hace que la API sea más rápida en términos de rendimiento
+B. No es necesario proporcionar documentación para una API
+C. Facilita a los desarrolladores comprender cómo usar correctamente la API
+D. Hace que la API sea menos segura y más accesible
+ANSWER: C
+
+¿Qué es una "API Key" en el contexto de seguridad de las APIs?
+A. Una clave que abre la puerta a todas las funcionalidades de una API
+B. Una contraseña utilizada para autenticarse en una API
+C. Una clave que solo es relevante para APIs públicas
+D. Una clave que solo se utiliza en APIs locales
+ANSWER: B
+
+¿Qué es la "autenticación" en el contexto de las APIs?
+A. El proceso de convertir una API privada en pública
+B. Un proceso para validar la integridad de los datos en una API
+C. Un método para verificar la identidad de un usuario o aplicación que accede a una API
+D. Un enfoque para ocultar todos los detalles internos de la implementación de la API
+ANSWER: C
+
+
+
+
+
+
+
+
+
+
+

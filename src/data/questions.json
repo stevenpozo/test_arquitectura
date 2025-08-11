@@ -1,1910 +1,3192 @@
 [
   {
-    "question": "¿Cuál de las siguientes no es una ventaja de usar SOAP en servicios web en la nube?",
+    "question": "¿Qué es una API en Java?",
     "options": [
-      "Interoperabilidad entre diferentes sistemas",
-      "Seguridad integrada con WS-Security",
-      "Alto rendimiento y baja latencia",
-      "Soporte para comunicación síncrona y asíncrona"
+      "Un lenguaje de programación",
+      "Una Interfaz de Programación de Aplicaciones",
+      "Un sistema operativo",
+      "Un entorno de desarrollo"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 1
   },
   {
-    "question": "¿Cuál de los siguientes servicios SOAP en la nube es ampliamente utilizado en entornos empresariales?",
+    "question": "¿Cuál de las siguientes afirmaciones es cierta acerca de las APIs públicas?",
     "options": [
-      "Amazon Web Services (AWS)",
-      "Google Cloud Platform (GCP)",
-      "Microsoft Azure",
-      "Salesforce"
+      "Solo pueden ser utilizadas por desarrolladores senior",
+      "Están disponibles para uso general y documentadas para terceros",
+      "Son secretas y no se pueden acceder externamente",
+      "Solo pueden ser utilizadas en proyectos personales"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 2
   },
   {
-    "question": "¿Qué servicio SOAP en la nube proporciona un conjunto de herramientas y servicios para crear aplicaciones y servicios web escalables?",
+    "question": "En Java, ¿cómo se declara un método de una API pública?",
     "options": [
-      "Amazon Simple Queue Service (SQS)",
-      "Google Cloud Pub/Sub",
-      "Microsoft Azure Service Bus",
-      "Salesforce Platform Events"
+      "private void miMetodo()",
+      "protected void miMetodo()",
+      "public void miMetodo()",
+      "void miMetodo()"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 3
   },
   {
-    "question": "¿Cuál de los siguientes servicios SOAP en la nube proporciona una plataforma completa para desarrollar, implementar y administrar aplicaciones web?",
+    "question": "¿Qué modificador de acceso se utiliza para indicar que un miembro de clase es visible solo en el mismo paquete?",
     "options": [
-      "Amazon Elastic Beanstalk",
-      "Google App Engine",
-      "Microsoft Azure App Service",
-      "Salesforce App Cloud"
+      "public",
+      "private",
+      "protected",
+      "package-private"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "answered": false,
     "id": 4
   },
   {
-    "question": "¿Cuál de los siguientes servicios SOAP en la nube es conocido por su capacidad de procesamiento y análisis de grandes volúmenes de datos?",
+    "question": "¿Cuál es el propósito principal de una API pública?",
     "options": [
-      "Amazon Elastic MapReduce (EMR)",
-      "Google Cloud Dataflow",
-      "Microsoft Azure HDInsight",
-      "Salesforce Analytics Cloud"
+      "Facilitar la comunicación entre aplicaciones locales",
+      "Limitar el acceso a funciones internas",
+      "Proporcionar una interfaz para que otras aplicaciones usen sus funciones",
+      "Agregar características de seguridad a una aplicación"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 5
   },
   {
-    "question": "¿Qué servicio SOAP en la nube proporciona una base de datos relacional altamente escalable y administrada?",
+    "question": "¿Qué es un API privado en Java?",
     "options": [
-      "Amazon Relational Database Service (RDS)",
-      "Google Cloud SQL",
-      "Microsoft Azure SQL Database",
-      "Salesforce Database.com"
+      "Una API que solo se puede acceder desde otros lenguajes de programación",
+      "Una API utilizada solo por el equipo de desarrollo interno",
+      "Una API que solo está disponible para empresas grandes",
+      "Una API diseñada exclusivamente para aplicaciones web"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 6
   },
   {
-    "question": "¿Cuál de las siguientes opciones es un servicio SOAP en la nube que permite la implementación y administración de aplicaciones en contenedores?",
+    "question": "¿Cuál de las siguientes opciones describe mejor la encapsulación en una API?",
     "options": [
-      "Amazon Elastic Container Service (ECS)",
-      "Google Kubernetes Engine (GKE)",
-      "Microsoft Azure Container Instances",
-      "Salesforce App Cloud Containers"
+      "Exponer todos los detalles internos de implementación",
+      "Ocultar los detalles internos y proporcionar una interfaz clara",
+      "Limitar el acceso solo a miembros públicos",
+      "Eliminar todas las restricciones de acceso"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 7
   },
   {
-    "question": "¿Qué servicio SOAP en la nube proporciona capacidades de procesamiento de transacciones y análisis en tiempo real?",
+    "question": "¿Cuál es la diferencia entre una API y una implementación?",
     "options": [
-      "Amazon Kinesis",
-      "Google Cloud Pub/Sub",
-      "Microsoft Azure Event Hubs",
-      "Salesforce Streaming API"
+      "No hay diferencia, son términos intercambiables",
+      "La API es la parte visible y la implementación es cómo funciona internamente",
+      "La implementación es la parte visible y la API es cómo funciona internamente",
+      "La API es para programadores y la implementación para usuarios finales"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 8
   },
   {
-    "question": "¿Cuál de los siguientes servicios SOAP en la nube proporciona un servicio de identidad y acceso para aplicaciones web y móviles?",
+    "question": "¿Cuál es el propósito del modificador \"final\" en la declaración de un método de API?",
     "options": [
-      "Amazon Cognito",
-      "Google Cloud Identity Platform",
-      "Microsoft Azure Active Directory",
-      "Salesforce Identity"
+      "Indica que el método solo se puede llamar una vez",
+      "Bloquea el acceso al método desde otras clases",
+      "Se usa para declarar un método como estático",
+      "Evita que las subclases anulen ese método"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "answered": false,
     "id": 9
   },
   {
-    "question": "¿Qué servicio SOAP en la nube proporciona herramientas y servicios para el desarrollo de aplicaciones móviles nativas y multiplataforma?",
+    "question": "¿Qué tipo de API se suele utilizar para interactuar con servicios web en Java?",
     "options": [
-      "Amazon Mobile Hub",
-      "Google Firebase",
-      "Microsoft Azure Mobile Apps",
-      "Salesforce Mobile SDK"
+      "API gráfica",
+      "API de base de datos",
+      "API RESTful",
+      "API de interfaz de usuario"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 10
   },
   {
-    "question": "¿Qué servicio SOAP en la nube proporciona servicios de aprendizaje automático y análisis de datos?",
+    "question": "¿Cuál es la principal ventaja de usar APIs públicas en comparación con escribir todo el código desde cero?",
     "options": [
-      "Amazon Machine Learning",
-      "Google Cloud AutoML",
-      "Microsoft Azure Machine Learning",
-      "Salesforce Einstein Analytics"
+      "Mayor control sobre la funcionalidad",
+      "Menor flexibilidad en la implementación",
+      "Ahorro de tiempo y esfuerzo",
+      "Mayor seguridad en la aplicación"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 11
   },
   {
-    "question": "¿Qué servicio SOAP en la nube proporciona una plataforma para el procesamiento y análisis de secuencias de video en tiempo real?",
+    "question": "¿Qué es un contrato de API?",
     "options": [
-      "Amazon Rekognition Video",
-      "Google Cloud Video Intelligence",
-      "Microsoft Azure Video Analyzer",
-      "Salesforce Video Analytics"
+      "Un documento legal para el uso de una API",
+      "Un acuerdo entre dos desarrolladores para compartir código",
+      "Un conjunto de reglas y especificaciones que rigen cómo interactuar con una API",
+      "Una tarjeta de identificación para acceder a una API privada"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 12
   },
   {
-    "question": "¿Cuál de los siguientes servicios SOAP en la nube proporciona servicios de almacenamiento y procesamiento de datos en memoria de alta velocidad?",
+    "question": "¿Cuál de las siguientes opciones es un ejemplo de una API Java popular?",
     "options": [
-      "Amazon ElastiCache",
-      "Google Cloud Memorystore",
-      "Microsoft Azure Cache for Redis",
-      "Salesforce Data Cache"
+      "PythonAPI",
+      "jQueryAPI",
+      "JavaAPI",
+      "AndroidAPI"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "answered": false,
     "id": 13
   },
   {
-    "question": "¿Qué servicio SOAP en la nube proporciona herramientas y servicios para el desarrollo y prueba de aplicaciones en dispositivos móviles?",
+    "question": "¿Qué es un \"endpoint\" en el contexto de una API RESTful?",
     "options": [
-      "Amazon Device Farm",
-      "Google Firebase Test Lab",
-      "Microsoft Azure Mobile App Testing",
-      "Salesforce Mobile Testing"
+      "El punto de inicio de un programa Java",
+      "El método principal de una API",
+      "La URL única que identifica un recurso en la API",
+      "Una categoría de métodos en una API"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 14
   },
   {
-    "question": "¿Cuál de los siguientes servicios SOAP en la nube proporciona una plataforma para el procesamiento y análisis de datos en tiempo real de dispositivos IoT?",
+    "question": "¿Cuál de las siguientes afirmaciones es cierta acerca de la seguridad en las APIs públicas?",
     "options": [
-      "Amazon IoT Core",
-      "Google Cloud IoT Core",
-      "Microsoft Azure IoT Hub",
-      "Salesforce IoT Cloud"
+      "La seguridad no es relevante para las APIs públicas",
+      "La seguridad debe manejarse solo en las APIs privadas",
+      "La seguridad es importante para prevenir accesos no autorizados",
+      "La seguridad solo afecta el rendimiento de la API"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 15
   },
   {
-    "question": "¿Qué servicio SOAP en la nube proporciona servicios de transcodificación y entrega de contenido multimedia a escala?",
+    "question": "Qué significa el acrónimo \"SDK\" en el contexto de APIs?",
     "options": [
-      "Amazon Elastic Transcoder",
-      "Google Cloud Video Transcoder",
-      "Microsoft Azure Media Services",
-      "Salesforce Media Cloud"
+      "Software de Desarrollo Kit",
+      "Sistema de Desarrollo Kármico",
+      "Sistema de Datos y Kernels",
+      "Software de Datos y Kernels"
     ],
     "correctAnswer": 0,
     "answered": false,
     "id": 16
   },
   {
-    "question": "¿Cuál de los siguientes servicios SOAP en la nube proporciona servicios de detección y mitigación de ataques DDoS?",
+    "question": "¿Qué es Maven en el contexto del desarrollo de APIs en Java?",
     "options": [
-      "Amazon Shield",
-      "Google Cloud Armor",
-      "Microsoft Azure DDoS Protection",
-      "Salesforce Security Shield"
+      "Una plataforma para crear interfaces gráficas de usuario",
+      "Una herramienta de construcción y gestión de proyectos",
+      "Un marco de trabajo para pruebas unitarias",
+      "Una API para manipular bases de datos"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 17
   },
   {
-    "question": "¿Qué servicio SOAP en la nube proporciona una plataforma para la creación y administración de flujos de trabajo empresariales?",
+    "question": "¿Cuál de las siguientes opciones describe mejor el proceso de \"deserialización\" en el contexto de APIs Java?",
     "options": [
-      "Amazon Simple Workflow Service (SWF)",
-      "Google Cloud Workflows",
-      "Microsoft Azure Logic Apps",
-      "Salesforce Workflow Builder"
+      "Convertir un objeto en una secuencia de bytes",
+      "Convertir una cadena de caracteres en un número entero",
+      "Convertir una secuencia de bytes en un objeto",
+      "Convertir un número entero en una cadena de caracteres"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 18
   },
   {
-    "question": "¿Cuál de los siguientes servicios SOAP en la nube proporciona herramientas y servicios para el desarrollo y administración de APIs?",
+    "question": "¿Qué es Javadoc en el contexto de APIs Java?",
     "options": [
-      "Amazon API Gateway",
-      "Google Cloud Endpoints",
-      "Microsoft Azure API Management",
-      "Salesforce Platform API"
+      "Una herramienta para generar documentación a partir de comentarios en el código fuente",
+      "Una herramienta de depuración en tiempo real",
+      "Una API para el manejo de bases de datos",
+      "Un lenguaje de programación para desarrollar interfaces gráficas"
     ],
     "correctAnswer": 0,
     "answered": false,
     "id": 19
   },
   {
-    "question": "¿Qué servicio SOAP en la nube proporciona herramientas y servicios para la creación y administración de chatbots?",
+    "question": "¿Qué significa el término \"deprecated\" en la documentación de una API?",
     "options": [
-      "Amazon Lex",
-      "Google Dialogflow",
-      "Microsoft Azure Bot Service",
-      "Salesforce Einstein Bots"
+      "El término es irrelevante para las APIs",
+      "Indica que un método ya no debe ser utilizado y puede ser eliminado en futuras versiones",
+      "Se refiere a métodos que solo pueden ser utilizados por desarrolladores avanzados",
+      "Indica que un método solo está disponible en versiones antiguas de la API"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 20
   },
   {
-    "question": "¿Cuál de las siguientes opciones es un servicio SOAP en la nube que permite el almacenamiento y la recuperación de datos en la nube?",
+    "question": "¿Qué es una \"excepción\" en el contexto de una API Java?",
     "options": [
-      "Amazon Simple Storage Service (S3)",
-      "Google Cloud Storage",
-      "Microsoft Azure Blob Storage",
-      "Salesforce Data Storage"
+      "Una característica opcional de la API",
+      "Un tipo de dato numérico",
+      "Un evento inesperado que puede ocurrir durante la ejecución de un programa",
+      "Una forma de mejorar el rendimiento de la API"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 21
   },
   {
-    "question": "¿Cuál de las siguientes no es una desventaja de usar SOAP en servicios web en la nube?",
+    "question": "¿Cuál de las siguientes afirmaciones es cierta acerca de las APIs privadas?",
     "options": [
-      "Mayor consumo de ancho de banda debido a la estructura XML",
-      "Mayor complejidad debido a su enfoque en los contratos de servicio",
-      "Limitado soporte para formatos de datos no XML",
-      "Falta de seguridad integrada en el protocolo"
+      "Son siempre más rápidas que las APIs públicas",
+      "Están disponibles para cualquier desarrollador",
+      "Están destinadas solo para el uso interno de una organización",
+      "No requieren documentación ni pruebas"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 22
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de mensaje SOAP?",
+    "question": "¿Cuál es una ventaja de tener una documentación detallada en una API?",
     "options": [
-      "Request",
-      "Response",
-      "Fault",
-      "Data"
+      "Hace que la API sea más rápida en términos de rendimiento",
+      "No es necesario proporcionar documentación para una API",
+      "Facilita a los desarrolladores comprender cómo usar correctamente la API",
+      "Hace que la API sea más segura y menos accesible"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "answered": false,
     "id": 23
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar relacionado con SOAP?",
+    "question": "¿Qué significa \"API Key\" en el contexto de seguridad de las APIs?",
     "options": [
-      "WSDL",
-      "REST",
-      "UDDI",
-      "XSD"
+      "Una clave que abre la puerta a todas las funcionalidades de una API",
+      "Una contraseña utilizada para autenticarse en una API",
+      "Una clave que solo es relevante para APIs privadas",
+      "Una clave que solo se utiliza en APIs locales"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 24
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de enlace comúnmente utilizado en servicios web SOAP?",
+    "question": "¿Qué es la \"autenticación\" en el contexto de las APIs?",
     "options": [
-      "HTTP",
-      "SMTP",
-      "TCP",
-      "JMS"
+      "El proceso de convertir una API pública en privada",
+      "Un proceso para validar la integridad de los datos en una API",
+      "Un método para verificar la identidad de un usuario o aplicación que accede a una API",
+      "Un enfoque para ocultar todos los detalles internos de la implementación de la API"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 25
   },
   {
-    "question": "¿Cuál de los siguientes no es un elemento comúnmente utilizado en un mensaje SOAP?",
+    "question": "¿Qué significa \"API\" en el contexto de .NET?",
     "options": [
-      "SOAPAction",
-      "FaultCode",
-      "SOAPVersion",
-      "Body"
+      "Asociación de Programadores Independientes",
+      "Aplicación Interconectada",
+      "Archivo de Procesamiento Intermedio",
+      "Interfaz de Programación de Aplicaciones"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "answered": false,
     "id": 26
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de codificación de datos comúnmente utilizado en SOAP?",
+    "question": "¿Cuál de las siguientes opciones describe mejor una API pública?",
     "options": [
-      "XML",
-      "JSON",
-      "Base64",
-      "MTOM"
+      "Accesible solo por el equipo de desarrollo interno",
+      "Disponible para uso general y documentada para terceros",
+      "Oculta completamente sus funciones y métodos",
+      "Diseñada exclusivamente para aplicaciones de consola"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 27
   },
   {
-    "question": "¿Cuál de los siguientes no es un estilo de enlace comúnmente utilizado en servicios web SOAP?",
+    "question": "En el contexto de .NET, ¿cómo se declara un método público en una API?",
     "options": [
-      "RPC",
-      "Documento",
-      "Comunicación síncrona",
-      "Comunicación asíncrona"
+      "void MiMetodo()",
+      "public void MiMetodo()",
+      "private void MiMetodo()",
+      "protected void MiMetodo()"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 28
   },
   {
-    "question": "¿Cuál de los siguientes es un estándar utilizado para describir la interfaz de un servicio web SOAP?",
+    "question": "¿Qué modificador de acceso se utiliza para restringir un miembro de clase a la misma clase y a clases derivadas?",
     "options": [
-      "WSDL",
-      "XML-RPC",
-      "SOAP-RPC",
-      "XSD"
+      "private",
+      "protected",
+      "public",
+      "internal"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 29
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar de seguridad comúnmente utilizado con servicios web SOAP?",
+    "question": "¿Cuál es el propósito principal de una API pública?",
     "options": [
-      "WS-Security",
-      "SSL/TLS",
-      "OAuth",
-      "SAML"
+      "Restringir el acceso a funciones internas",
+      "Facilitar la comunicación entre aplicaciones locales",
+      "Proporcionar una interfaz para que otras aplicaciones usen sus funciones",
+      "Garantizar la compatibilidad con sistemas operativos específicos"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 30
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de transporte comúnmente utilizado en servicios web SOAP?",
+    "question": "¿Qué es una API privada en .NET?",
     "options": [
-      "HTTP",
-      "FTP",
-      "TCP",
-      "JMS"
+      "Una API que solo se puede acceder desde otros lenguajes de programación",
+      "Una API diseñada solo para aplicaciones móviles",
+      "Una API que solo está disponible para uso personal",
+      "Una API utilizada solo por el equipo de desarrollo interno"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "answered": false,
     "id": 31
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar utilizado para la representación de tipos de datos en SOAP?",
+    "question": "¿Cuál de las siguientes opciones describe mejor la encapsulación en una API?",
     "options": [
-      "XSD",
-      "XML",
-      "JSON",
-      "WSDL"
+      "Exponer todos los detalles internos de implementación",
+      "Ocultar los detalles internos y proporcionar una interfaz clara",
+      "Limitar el acceso solo a miembros protegidos",
+      "Eliminar todos los métodos de una clase"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 32
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar utilizado para la publicación y descubrimiento de servicios web SOAP?",
+    "question": "¿Qué es un \"namespace\" en .NET?",
     "options": [
-      "UDDI",
-      "SOAP-Discovery",
-      "WSDL",
-      "WS-Discovery"
+      "Una carpeta en el sistema de archivos",
+      "Un contenedor que organiza tipos relacionados",
+      "Un sinónimo de API en .NET",
+      "Una unidad de almacenamiento en la nube"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 33
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de error comúnmente utilizado en un mensaje SOAP Fault?",
+    "question": "¿Qué es el \"GAC\" (Global Assembly Cache) en .NET?",
     "options": [
-      "Client",
-      "Server",
-      "System",
-      "Data"
+      "Una base de datos global para APIs",
+      "Un sistema de gestión de archivos",
+      "Un lugar donde se almacenan ensamblados compartidos",
+      "Un espacio para guardar archivos temporales"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "answered": false,
     "id": 34
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar utilizado para la serialización binaria de datos en SOAP?",
+    "question": "¿Qué tipo de API se utiliza comúnmente para interactuar con servicios web en .NET?",
     "options": [
-      "XML",
-      "Base64",
-      "MTOM",
-      "BSON"
+      "API gráfica",
+      "API de base de datos",
+      "API RESTful",
+      "API de interfaz de usuario"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "answered": false,
     "id": 35
   },
   {
-    "question": "¿Cuál de los siguientes protocolos es utilizado comúnmente para implementar servicios web en la nube?",
+    "question": "¿Cuál es una ventaja de usar APIs públicas en lugar de escribir código desde cero?",
     "options": [
-      "SOAP",
-      "FTP",
-      "SMTP",
-      "HTTP"
+      "Mayor control sobre la funcionalidad",
+      "Mayor complejidad en la implementación",
+      "Ahorro de tiempo y esfuerzo",
+      "Mayor aislamiento de errores"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "answered": false,
     "id": 36
   },
   {
-    "question": "¿Cuál de los siguientes no es un componente clave de una solicitud SOAP?",
+    "question": "¿Qué es un \"contrato de API\"?",
     "options": [
-      "Header",
-      "Body",
-      "Envelope",
-      "Footer"
+      "Un acuerdo legal para el uso de una API",
+      "Un conjunto de reglas y especificaciones que rigen cómo interactuar con una API",
+      "Un archivo de configuración para una API",
+      "Una clave secreta para acceder a una API"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "answered": false,
     "id": 37
   },
   {
-    "question": "¿Qué formato de datos se utiliza comúnmente para representar la información en una solicitud SOAP?",
+    "question": "¿Cuál de las siguientes opciones es un ejemplo de una API popular en .NET?",
     "options": [
-      "XML",
-      "JSON",
-      "HTML",
-      "YAML"
+      "JavaAPI",
+      ".NETAPI",
+      "PythonAPI",
+      "Entity Framework"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "answered": false,
     "id": 38
   },
   {
-    "question": "¿Cuál de los siguientes no es un método comúnmente utilizado en una solicitud SOAP?",
+    "question": "¿Qué es un \"endpoint\" en el contexto de una API web?",
     "options": [
-      "GET",
-      "POST",
-      "PUT",
-      "DELETE"
+      "El punto de inicio de una aplicación .NET",
+      "El método principal de una API",
+      "La URL única que identifica un recurso en la API",
+      "Una categoría de métodos en una API"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 39
   },
   {
-    "question": "¿Cuál de los siguientes protocolos es utilizado comúnmente para implementar servicios web en la nube con .NET?",
+    "question": "¿Cuál de las siguientes afirmaciones es cierta acerca de la seguridad en las APIs públicas?",
     "options": [
-      "SOAP",
-      "FTP",
-      "SMTP",
-      "HTTP"
+      "La seguridad no es relevante para las APIs públicas",
+      "La seguridad solo es importante en las APIs privadas",
+      "La seguridad es importante para prevenir accesos no autorizados",
+      "La seguridad solo afecta el rendimiento de la API"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 40
   },
   {
-    "question": "¿Cuál de los siguientes no es un componente clave de una solicitud SOAP?",
+    "question": "41.\t¿Qué significa el acrónimo \"SDK\" en el contexto de APIs?",
     "options": [
-      "Header",
-      "Body",
-      "Envelope",
-      "Footer"
+      "Software de Desarrollo Kit",
+      "Sistema de Desarrollo Kármico",
+      "Sistema de Datos y Kernels",
+      "Software de Datos y Kernels"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "answered": false,
     "id": 41
   },
   {
-    "question": "¿Qué formato de datos se utiliza comúnmente para representar la información en una solicitud SOAP con .NET?",
+    "question": "Qué es NuGet en el contexto del desarrollo de APIs en .NET?",
     "options": [
-      "XML",
-      "JSON",
-      "HTML",
-      "YAML"
+      "Una plataforma de redes sociales para desarrolladores",
+      "Una herramienta para la instalación y gestión de paquetes",
+      "Un IDE (Entorno de Desarrollo Integrado) para .NET",
+      "Una base de datos para almacenar APIs"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 42
   },
   {
-    "question": "¿Cuál de las siguientes no es una ventaja de usar SOAP en servicios web en la nube con .NET?",
+    "question": "¿Qué es la \"serialización\" en el contexto de APIs .NET?",
     "options": [
-      "Interoperabilidad entre diferentes sistemas",
-      "Seguridad integrada con WS-Security",
-      "Alto rendimiento y baja latencia",
-      "Soporte para comunicación síncrona y asíncrona"
+      "Convertir un objeto en una secuencia de bytes",
+      "Convertir una cadena de caracteres en un número entero",
+      "Convertir una secuencia de bytes en un objeto",
+      "Convertir un número entero en una cadena de caracteres"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "answered": false,
     "id": 43
   },
   {
-    "question": "¿Cuál de los siguientes es un lenguaje de programación comúnmente utilizado para implementar servicios web SOAP en .NET?",
+    "question": "¿Qué es XML Documentation (XMLDoc) en .NET?",
     "options": [
-      "JavaScript",
-      "Python",
-      "PHP",
-      "C#"
+      "Un lenguaje de programación para .NET",
+      "Una técnica de codificación de alto rendimiento",
+      "Una forma de cifrar datos en una API",
+      "Una forma de generar documentación desde el código fuente"
     ],
     "correctAnswer": 3,
     "answered": false,
     "id": 44
   },
   {
-    "question": "¿Cuál de los siguientes no es un método comúnmente utilizado en una solicitud SOAP?",
+    "question": "¿Qué significa el término \"obsolete\" en la documentación de una API?",
     "options": [
-      "GET",
-      "POST",
-      "PUT",
-      "DELETE"
+      "El término es irrelevante en el contexto de APIs",
+      "Indica que un método ya no debe ser utilizado y puede ser eliminado en futuras versiones",
+      "Se refiere a métodos que solo pueden ser utilizados por desarrolladores avanzados",
+      "Indica que un método solo está disponible en versiones antiguas de la API"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 45
   },
   {
-    "question": "¿Cuál de las siguientes no es una desventaja de usar SOAP en servicios web en la nube con .NET?",
+    "question": "¿Qué es una \"excepción\" en el contexto de una API .NET?",
     "options": [
-      "Mayor consumo de ancho de banda debido a la estructura XML",
-      "Mayor complejidad debido a su enfoque en los contratos de servicio",
-      "Limitado soporte para formatos de datos no XML",
-      "Falta de seguridad integrada en el protocolo"
+      "Una característica opcional de la API",
+      "Un tipo de dato numérico",
+      "Un evento inesperado que puede ocurrir durante la ejecución de un programa",
+      "Una forma de mejorar el rendimiento de la API"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "answered": false,
     "id": 46
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de mensaje SOAP?",
+    "question": "¿Cuál de las siguientes afirmaciones es cierta acerca de las APIs privadas en .NET?",
     "options": [
-      "Request",
-      "Response",
-      "Fault",
-      "Data"
+      "Siempre están disponibles para cualquier desarrollador",
+      "Están destinadas solo para el uso interno de una organización",
+      "No necesitan documentación ni pruebas",
+      "Solo pueden ser utilizadas en aplicaciones de consola"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "answered": false,
     "id": 47
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar relacionado con SOAP en .NET?",
+    "question": "¿Cuál es una ventaja de proporcionar una documentación detallada en una API?",
     "options": [
-      "WSDL",
-      "REST",
-      "UDDI",
-      "XSD"
+      "Hace que la API sea más rápida en términos de rendimiento",
+      "No es necesario proporcionar documentación para una API",
+      "Facilita a los desarrolladores comprender cómo usar correctamente la API",
+      "Hace que la API sea menos segura y más accesible"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 48
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de enlace comúnmente utilizado en servicios web SOAP con .NET?",
+    "question": "¿Qué es una \"API Key\" en el contexto de seguridad de las APIs?",
     "options": [
-      "HTTP",
-      "SMTP",
-      "TCP",
-      "JMS"
+      "Una clave que abre la puerta a todas las funcionalidades de una API",
+      "Una contraseña utilizada para autenticarse en una API",
+      "Una clave que solo es relevante para APIs públicas",
+      "Una clave que solo se utiliza en APIs locales"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 49
   },
   {
-    "question": "¿Cuál de los siguientes no es un elemento comúnmente utilizado en un mensaje SOAP?",
+    "question": "¿Qué es la \"autenticación\" en el contexto de las APIs?",
     "options": [
-      "SOAPAction",
-      "FaultCode",
-      "SOAPVersion",
-      "Body"
+      "El proceso de convertir una API privada en pública",
+      "Un proceso para validar la integridad de los datos en una API",
+      "Un método para verificar la identidad de un usuario o aplicación que accede a una API",
+      "Un enfoque para ocultar todos los detalles internos de la implementación de la API"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 50
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de codificación de datos comúnmente utilizado en SOAP con .NET?",
+    "question": "¿Qué significa BPM?",
     "options": [
-      "XML",
-      "JSON",
-      "Base64",
-      "MTOM"
+      "Business Project Management",
+      "Business Process Management",
+      "Business Performance Measurement",
+      "Business Product Marketing"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 51
   },
   {
-    "question": "¿Cuál de los siguientes no es un estilo de enlace comúnmente utilizado en servicios web SOAP con .NET?",
+    "question": "¿Cuál de las siguientes NO es una fase típica en el ciclo de vida de BPM?",
     "options": [
-      "RPC",
-      "Documento",
-      "Comunicación síncrona",
-      "Comunicación asíncrona"
+      "Modelado",
+      "Implementación",
+      "Evaluación",
+      "Administración"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "answered": false,
     "id": 52
   },
   {
-    "question": "¿Cuál de los siguientes es un estándar utilizado para describir la interfaz de un servicio web SOAP en .NET?",
+    "question": "¿Qué herramienta se utiliza comúnmente para el modelado de procesos en BPM?",
     "options": [
-      "WSDL",
-      "XML-RPC",
-      "SOAP-RPC",
-      "XSD"
+      "Excel",
+      "Photoshop",
+      "Microsoft Visio",
+      "PowerPoint"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 53
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar de seguridad comúnmente utilizado con servicios web SOAP en .NET?",
+    "question": "¿Cuál de las siguientes NO es una característica clave de BPM?",
     "options": [
-      "WS-Security",
-      "SSL/TLS",
-      "OAuth",
-      "SAML"
+      "Automatización de procesos",
+      "Optimización de recursos",
+      "Centralización de datos",
+      "Análisis de mercado"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "answered": false,
     "id": 54
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de transporte comúnmente utilizado en servicios web SOAP con .NET?",
+    "question": "¿Qué estándar es comúnmente utilizado para la ejecución de procesos en BPM?",
     "options": [
-      "HTTP",
-      "FTP",
-      "TCP",
-      "JMS"
+      "BPMN",
+      "HTML",
+      "XML",
+      "JSON"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 0,
     "answered": false,
     "id": 55
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar utilizado para la representación de tipos de datos en SOAP con .NET?",
+    "question": "Qué tipo de proceso implica la interacción directa con los clientes?",
     "options": [
-      "XSD",
-      "XML",
-      "JSON",
-      "WSDL"
+      "Proceso interno",
+      "Proceso externo",
+      "Proceso de negocio",
+      "Proceso de servicio"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "answered": false,
     "id": 56
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar utilizado para la publicación y descubrimiento de servicios web SOAP con .NET?",
+    "question": "¿Qué es un KPI en el contexto de BPM?",
     "options": [
-      "UDDI",
-      "SOAP-Discovery",
-      "WSDL",
-      "WS-Discovery"
+      "Indicador de Rendimiento Clave",
+      "Instrumento de Programación Continua",
+      "Implementación de Procesos Corporativos",
+      "Intercambio de Protocolos Comerciales"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 0,
     "answered": false,
     "id": 57
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de error comúnmente utilizado en un mensaje SOAP Fault?",
+    "question": "¿Qué tipo de proceso se enfoca en mejorar los procesos existentes dentro de una organización?",
     "options": [
-      "Client",
-      "Server",
-      "System",
-      "Data"
+      "Proceso de automatización",
+      "Proceso de mejora",
+      "Proceso de rediseño",
+      "Proceso de implementación"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "answered": false,
     "id": 58
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar utilizado para la serialización binaria de datos en SOAP con .NET?",
+    "question": "¿Qué técnica se utiliza comúnmente para identificar y analizar los procesos en BPM?",
     "options": [
-      "XML",
-      "Base64",
-      "MTOM",
-      "BSON"
+      "Diagrama de Gantt",
+      "Diagrama de Pareto",
+      "Diagrama de Ishikawa",
+      "Diagrama de flujo"
     ],
     "correctAnswer": 3,
     "answered": false,
     "id": 59
   },
   {
-    "question": "¿Cuál de los siguientes protocolos es utilizado comúnmente para implementar servicios RESTful en la nube?",
+    "question": "¿Cuál de los siguientes NO es un beneficio típico de la implementación de BPM?",
     "options": [
-      "SOAP",
-      "FTP",
-      "SMTP",
-      "HTTP"
+      "Reducción de costos",
+      "Mejora de la calidad",
+      "Aumento de la complejidad",
+      "Mayor agilidad empresarial"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "answered": false,
     "id": 60
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube es ampliamente utilizado para el almacenamiento y recuperación de datos?",
+    "question": "¿Cuál de las siguientes NO es una función común de un motor de ejecución de BPM?",
     "options": [
-      "Amazon S3",
-      "Google Cloud Storage",
-      "Microsoft Azure Blob Storage",
-      "Oracle Cloud Object Storage"
+      "Administración de tareas",
+      "Monitoreo de procesos",
+      "Generación de informes financieros",
+      "Gestión de usuarios"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 61
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una plataforma completa para el desarrollo y despliegue de aplicaciones web?",
+    "question": "¿Qué técnica se utiliza comúnmente para evaluar y mejorar continuamente los procesos en BPM?",
     "options": [
-      "Amazon Elastic Beanstalk",
-      "Google App Engine",
-      "Microsoft Azure App Service",
-      "Oracle Cloud Infrastructure"
+      "Análisis FODA",
+      "Ciclo de Deming (PDCA)",
+      "Teoría de Colas",
+      "Análisis PESTEL"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 62
   },
   {
-    "question": "¿Cuál de las siguientes opciones es un servicio RESTful en la nube que permite la implementación y administración de aplicaciones en contenedores?",
+    "question": "¿Qué tipo de proceso se centra en la gestión y coordinación de las actividades internas de una organización?",
     "options": [
-      "Amazon Elastic Container Service (ECS)",
-      "Google Kubernetes Engine (GKE)",
-      "Microsoft Azure Container Instances",
-      "Oracle Container Engine for Kubernetes"
+      "Proceso de negocios",
+      "Proceso interno",
+      "Proceso externo",
+      "Proceso de servicio"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 63
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y prueba de aplicaciones móviles?",
+    "question": "¿Cuál de las siguientes NO es una característica común de un proceso en BPM?",
     "options": [
-      "Firebase",
-      "Google Cloud Mobile",
-      "Microsoft Azure Mobile Apps",
-      "Oracle Mobile Hub"
+      "Secuencia de actividades",
+      "Asignación de recursos",
+      "Estilo de fuente",
+      "Flujos de trabajo"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 64
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube es conocido por su capacidad de procesamiento y análisis de grandes volúmenes de datos?",
+    "question": "¿Cuál de las siguientes NO es una métrica típica utilizada en BPM?",
     "options": [
-      "Amazon Kinesis",
-      "Google Cloud Pub/Sub",
-      "Microsoft Azure Event Hubs",
-      "Oracle Streaming Service"
+      "Tiempo de ciclo",
+      "Costo de producción",
+      "Tasa de error",
+      "Nivel de inventario"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 65
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una base de datos NoSQL altamente escalable y administrada?",
+    "question": "¿Qué tipo de proceso se centra en la entrega de valor directamente al cliente?",
     "options": [
-      "Amazon DynamoDB",
-      "Google Cloud Firestore",
-      "Microsoft Azure Cosmos DB",
-      "Oracle NoSQL Database"
+      "Proceso interno",
+      "Proceso de servicio",
+      "Proceso externo",
+      "Proceso de negocio"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 66
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona un servicio de autenticación y autorización para aplicaciones web y móviles?",
+    "question": "¿Cuál de las siguientes NO es una etapa típica en el modelado de procesos en BPM?",
     "options": [
-      "Firebase Authentication",
-      "Google Identity Platform",
-      "Microsoft Azure Active Directory",
-      "Oracle Identity Cloud Service"
+      "Identificación",
+      "Documentación",
+      "Análisis de datos",
+      "Implementación"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "answered": false,
     "id": 67
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de funciones sin servidor (serverless)?",
+    "question": "¿Qué tipo de proceso implica la interacción entre una organización y sus socios comerciales?",
     "options": [
-      "AWS Lambda",
-      "Google Cloud Functions",
-      "Azure Functions",
-      "Oracle Functions"
+      "Proceso interno",
+      "Proceso de servicio",
+      "Proceso externo",
+      "Proceso colaborativo"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 68
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona una plataforma para el procesamiento y análisis de secuencias de video en tiempo real?",
+    "question": "¿Cuál de las siguientes NO es una característica común de un motor de reglas de negocio en BPM?",
     "options": [
-      "Amazon Rekognition Video",
-      "Google Cloud Video Intelligence",
-      "Microsoft Azure Video Indexer",
-      "Oracle Video Analytics"
+      "Gestión de reglas",
+      "Motor de ejecución",
+      "Análisis de datos",
+      "Integración con sistemas externos"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 69
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de chatbots?",
+    "question": "¿Qué tipo de proceso implica la entrega de productos o servicios a los clientes?",
     "options": [
-      "Amazon Lex",
-      "Google Dialogflow",
-      "Microsoft Azure Bot Service",
-      "Oracle Digital Assistant"
+      "Proceso de mejora",
+      "Proceso de soporte",
+      "Proceso de entrega",
+      "Proceso de venta"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 70
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona herramientas y servicios para el desarrollo de aplicaciones de Internet de las Cosas (IoT)?",
+    "question": "BPM se centra en:",
     "options": [
-      "AWS IoT Core",
-      "Google Cloud IoT Core",
-      "Microsoft Azure IoT Hub",
-      "Oracle Internet of Things Cloud Service"
+      "Las personas",
+      "Los procesos",
+      "Los clientes",
+      "Los directivos"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 71
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el análisis y visualización de datos?",
+    "question": "¿Cómo se puede representar los roles o cargos dentro de un diagrama BPMN?",
     "options": [
-      "Amazon QuickSight",
-      "Google Data Studio",
-      "Power BI (Microsoft)",
-      "Todas lan anteriores"
+      "Con Lanes",
+      "Con Actividades",
+      "Con Eventos",
+      "Con Pool"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "answered": false,
     "id": 72
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona herramientas y servicios para la gestión de API?",
+    "question": "Tipo de compuerta en la que solo una alternativa o flujo puede ser verdadera",
     "options": [
-      "Amazon API Gateway",
-      "Google Cloud Endpoints",
-      "Azure API Management",
-      "Oracle API Gateway"
+      "Compuerta Paralela",
+      "Compuerta basada en eventos",
+      "Compuerta Exclusiva",
+      "Ninguna de las anteriores"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 73
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de aplicaciones de voz y chat en tiempo real?",
+    "question": "Elemento para proveer información adicional sobre el diagrama",
     "options": [
-      "Amazon Lex",
-      "Google Dialogflow",
-      "Azure Bot Service",
-      "Todas las anteriores"
+      "Eventos",
+      "Anotaciones",
+      "Pool",
+      "Flujos de conexión"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "answered": false,
     "id": 74
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona un sistema de almacenamiento de objetos y archivos escalable y duradero?",
+    "question": "Actividad realizada por un humano con ayuda de una computadora",
     "options": [
-      "Amazon S3",
-      "Google Cloud Storage",
-      "Microsoft Azure Blob Storage",
-      "Oracle Object Storage"
+      "Actividad de Servicio",
+      "Actividad de Envió",
+      "Actividad de Usuario",
+      "Actividad de Recepción"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 75
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una plataforma para el procesamiento y análisis de datos en tiempo real de dispositivos IoT?",
+    "question": "Evento que espera un mensaje de un participante para continuar con el proceso",
     "options": [
-      "AWS IoT Analytics",
-      "Google Cloud IoT Analytics",
-      "Azure Stream Analytics",
-      "Oracle IoT Analytics Cloud"
+      "Evento de Mensaje",
+      "Evento de Señal",
+      "Evento de Temporizador",
+      "Evento de Enlace"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "answered": false,
     "id": 76
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona servicios de detección y mitigación de ataques DDoS?",
+    "question": "¿Qué tipo de compuerta (gateway) sirve para tomar una decisión (Sí, No)?",
     "options": [
-      "AWS Shield",
-      "Google Cloud Armor",
-      "Azure DDoS Protection",
-      "Oracle Cloud Infrastructure WAF"
+      "Compuerta paralela",
+      "Compuerta exclusiva",
+      "Compuerta inclusiva",
+      "Compuerta basada en eventos"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 77
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una plataforma para la creación y administración de flujos de trabajo empresariales?",
+    "question": "¿Qué tipo de compuerta sirve para realizar ambas tareas en un proceso?",
     "options": [
-      "AWS Step Functions",
-      "Google Cloud Workflows",
-      "Azure Logic Apps",
-      "Oracle Process Cloud Service"
+      "Compuerta paralela",
+      "Compuerta exclusiva",
+      "Compuerta basada en eventos",
+      "Compuerta inclusiva"
     ],
     "correctAnswer": 0,
     "answered": false,
     "id": 78
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona servicios de análisis y detección de anomalías en datos de series temporales?",
+    "question": "¿Qué tipo de flujo sirve para unir dos Tareas en un mismo Pool?",
     "options": [
-      "Amazon CloudWatch",
-      "Google Cloud Monitoring",
-      "Azure Monitor",
-      "Oracle Management Cloud"
+      "Flujo de Secuencia",
+      "Flujo de Asociación",
+      "Flujo de Mensaje",
+      "Flujo de Control"
     ],
     "correctAnswer": 0,
     "answered": false,
     "id": 79
   },
   {
-    "question": "¿Cuál de los siguientes no es un método HTTP comúnmente utilizado en una operación RESTful?",
+    "question": "¿Qué es un Lane?",
     "options": [
-      "GET",
-      "POST",
-      "UPDATE",
-      "DELETE"
+      "Es una división que se realiza dentro de una Actividad",
+      "Es una Actividad que realiza un usuario de forma manual",
+      "Es la encargada de dividir un Pool en subprocesos",
+      "Es una sub partición dentro del Pool"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "answered": false,
     "id": 80
   },
   {
-    "question": "¿Qué formato de datos es comúnmente utilizado para representar la información en una respuesta RESTful en la nube en Java?",
+    "question": "¿Cuál es el objetivo de una Tarea de Servicio?",
     "options": [
-      "XML",
-      "JSON",
-      "HTML",
-      "YAML"
+      "Es una Tarea donde un humano ejecuta la Tarea con ayuda de una aplicación",
+      "Es una Tarea que realiza una función de forma automatizada",
+      "Es una Tarea que envía un mensaje a un participante externo",
+      "Tarea que contiene otras Tareas dentro del proceso"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 81
   },
   {
-    "question": "¿Cuál de las siguientes no es una ventaja de usar RESTful en servicios en la nube en Java?",
+    "question": "¿Qué Flujo sirve para conectar una Tarea de un Pool a la Tarea de otro Pool?",
     "options": [
-      "Arquitectura simple y fácil de entender",
-      "Alta flexibilidad y escalabilidad",
-      "Mayor seguridad integrada con WS-Security",
-      "Amplia adopción y soporte en frameworks y bibliotecas"
+      "Flujo de Secuencia",
+      "Flujo de Asociación",
+      "Flujo de Excepción",
+      "Flujo de Mensaje"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "answered": false,
     "id": 82
   },
   {
-    "question": "¿Cuál de los siguientes lenguajes de programación es comúnmente utilizado para implementar servicios RESTful en la nube en Java?",
+    "question": "¿Cuál es la función de un Evento de Inicio?",
     "options": [
-      "JavaScript",
-      "Python",
-      "PHP",
-      "Java"
+      "Indicar donde el proceso comienza",
+      "Indicar donde el proceso finaliza",
+      "Indicar donde sucede un evento en medio del proceso",
+      "Iniciar una Tarea en un punto intermedio"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "answered": false,
     "id": 83
   },
   {
-    "question": "¿Cuál de los siguientes no es una restricción de RESTful?",
+    "question": "BPM se centra en:",
     "options": [
-      "Stateless",
-      "Client-Server",
-      "SOAP",
-      "Cacheable"
+      "Las personas",
+      "Los procesos",
+      "Los clientes",
+      "Los directivos"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "answered": false,
     "id": 84
   },
   {
-    "question": "¿Cuál de las siguientes no es una desventaja de usar RESTful en servicios en la nube en Java?",
+    "question": "¿Cómo se puede representar los roles o cargos dentro de un diagrama BPMN?",
     "options": [
-      "Menor soporte para comunicación síncrona y asíncrona",
-      "Mayor complejidad en la gestión de transacciones",
-      "Limitado soporte para describir la interfaz de servicio",
-      "Falta de seguridad integrada en el protocolo"
+      "Con Lanes",
+      "Con Actividades",
+      "Con Eventos",
+      "Con Pool"
     ],
     "correctAnswer": 0,
     "answered": false,
     "id": 85
   },
   {
-    "question": "¿Cuál de los siguientes no es un código de estado HTTP comúnmente utilizado en una respuesta RESTful exitosa?",
+    "question": "Para converger flujos, se debe utilizar el mismo tipo de compuerta que se usó como divergente",
     "options": [
-      "200 OK",
-      "201 Created",
-      "204 No Content",
-      "404 Not Found"
+      "Verdadero",
+      "Falso"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "answered": false,
     "id": 86
   },
   {
-    "question": "¿Cuál de los siguientes no es un formato de datos comúnmente utilizado para representar recursos en una solicitud RESTful en Java?",
+    "question": "Tipo de compuerta en la que solo una alternativa o flujo puede ser verdadera",
     "options": [
-      "XML",
-      "JSON",
-      "HTML",
-      "YAML"
+      "Compuerta Paralela",
+      "Compuerta basada en eventos",
+      "Compuerta Exclusiva",
+      "Ninguna de las anteriores"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 87
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de autenticación comúnmente utilizado en servicios RESTful en Java?",
+    "question": "Un evento intermedio nos sirve para iniciar un proceso",
     "options": [
-      "Basic Authentication",
-      "Digest Authentication",
-      "Token-based Authentication",
-      "WS-Security Authentication"
+      "Verdadero",
+      "Falso"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "answered": false,
     "id": 88
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar comúnmente utilizado para la documentación de servicios RESTful en Java?",
+    "question": "Elemento para proveer información adicional sobre el diagrama",
     "options": [
-      "RAML",
-      "WSDL",
-      "OpenAPI (anteriormente conocido como Swagger)",
-      "API Blueprint"
+      "Eventos",
+      "Anotaciones",
+      "Pool",
+      "Flujos de conexión"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 89
   },
   {
-    "question": "¿Cuál de los siguientes no es un método HTTP comúnmente utilizado en una operación RESTful para eliminar un recurso?",
+    "question": "Las compuertas o puertas de enlace, nos permiten dividir o unir flujos",
     "options": [
-      "GET",
-      "POST",
-      "DELETE",
-      "OPTIONS"
+      "Verdadero",
+      "Falso"
     ],
     "correctAnswer": 0,
     "answered": false,
     "id": 90
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de seguridad comúnmente utilizado en servicios RESTful en Java?",
+    "question": "Un subproceso no pertenece a la clase de actividades",
     "options": [
-      "HTTPS",
-      "OAuth",
-      "JWT",
-      "SSL"
+      "Verdadero",
+      "Falso"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "answered": false,
     "id": 91
   },
   {
-    "question": "¿Cuál de los siguientes no es un beneficio común de la arquitectura RESTful en servicios en la nube en Java?",
+    "question": "Actividad realizada por un humano con ayuda de una computadora",
     "options": [
-      "Escalabilidad y rendimiento mejorados",
-      "Separación clara entre cliente y servidor",
-      "Mayor facilidad de caché y rendimiento",
-      "Mayor soporte para contratos de servicio formales"
+      "Actividad de Servicio",
+      "Actividad de Envió",
+      "Actividad de Usuario",
+      "Actividad de Recepción"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "answered": false,
     "id": 92
   },
   {
-    "question": "¿Cuál de los siguientes no es un nivel de madurez comúnmente utilizado en la arquitectura de servicios RESTful?",
+    "question": "Evento que espera un mensaje de un participante para continuar con el proceso",
     "options": [
-      "Nivel 0 - POX (Plain Old XML)",
-      "Nivel 1 - Servicios Web SOAP",
-      "Nivel 2 - Servicios Web RESTful",
-      "Nivel 3 - Hypermedia as the Engine of Application State (HATEOAS)"
+      "Evento de Mensaje",
+      "Evento de Señal",
+      "Evento de Temporizador",
+      "Evento de Enlace"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 0,
     "answered": false,
     "id": 93
   },
   {
-    "question": "¿Cuál de los siguientes no es un beneficio común de usar JSON en servicios RESTful en Java?",
+    "question": "¿Qué tipo de compuerta (gateway) sirve para tomar una decisión (Sí, No)?",
     "options": [
-      "Fácil de leer y escribir para los humanos",
-      "Ligero y eficiente en términos de tamaño de datos",
-      "Ampliamente compatible y fácil de parsear en diferentes plataformas",
-      "Proporciona seguridad adicional mediante encriptación de datos"
+      "Compuerta paralela",
+      "Compuerta exclusiva",
+      "Compuerta inclusiva",
+      "Compuerta basada en eventos"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "answered": false,
     "id": 94
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar comúnmente utilizado para la autenticación y autorización en servicios RESTful en Java?",
+    "question": "¿Qué tipo de compuerta sirve para realizar ambas tareas en un proceso?",
     "options": [
-      "OAuth",
-      "JWT",
-      "SAML",
-      "SSL"
+      "Compuerta paralela",
+      "Compuerta exclusiva",
+      "Compuerta basada en eventos",
+      "Compuerta inclusiva"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "answered": false,
     "id": 95
   },
   {
-    "question": "¿Cuál de los siguientes no es una práctica recomendada para diseñar una API RESTful en Java?",
+    "question": "¿Qué tipo de flujo sirve para unir dos Tareas en un mismo Pool?",
     "options": [
-      "Utilizar adecuadamente los verbos HTTP para cada operación",
-      "Utilizar versionamiento de API para cambios futuros",
-      "Exponer todos los detalles internos del servidor en las respuestas",
-      "Proporcionar una documentación clara y completa de la API"
+      "Flujo de Secuencia",
+      "Flujo de Asociación",
+      "Flujo de Mensaje"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "answered": false,
     "id": 96
   },
   {
-    "question": "¿Cuál de los siguientes no es un componente comúnmente utilizado en una URL de una API RESTful en Java?",
+    "question": "¿Qué es un Lane?",
     "options": [
-      "Protocolo",
-      "Dominio",
-      "Endpoint",
-      "Puerto"
+      "Es una división que se realiza dentro de una Actividad",
+      "Es una Actividad que realiza un usuario de forma manual",
+      "Es la encargada de dividir un Pool en subprocesos",
+      "Es una sub partición dentro del Pool"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "answered": false,
     "id": 97
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar comúnmente utilizado para describir una API RESTful en Java?",
+    "question": "¿Cuál es el objetivo de una Tarea de Servicio?",
     "options": [
-      "WSDL",
-      "RAML",
-      "OpenAPI (anteriormente conocido como Swagger)",
-      "API Blueprint"
+      "Es una Tarea donde un humano ejecuta la Tarea con ayuda de una aplicación",
+      "Es una Tarea que realiza una función de forma automatizada",
+      "Es una Tarea que envía un mensaje a un participante externo",
+      "Tarea que contiene otras Tareas dentro del proceso"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 98
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube es ampliamente utilizado para el almacenamiento y recuperación de datos?",
+    "question": "¿Qué Flujo sirve para conectar una Tarea de un Pool a la Tarea de otro Pool?",
     "options": [
-      "Amazon S3",
-      "Google Cloud Storage",
-      "Microsoft Azure Blob Storage",
-      "Oracle Cloud Object Storage"
+      "Flujo de Secuencia",
+      "Flujo de Asociación",
+      "Flujo de Mensaje"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 99
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una plataforma completa para el desarrollo y despliegue de aplicaciones web?",
+    "question": "¿Cuál es la función de un Evento de Inicio?",
     "options": [
-      "Amazon Elastic Beanstalk",
-      "Google App Engine",
-      "Microsoft Azure App Service",
-      "Oracle Cloud Infrastructure"
+      "Indicar donde el proceso comienza",
+      "Indicar donde el proceso finaliza",
+      "Indicar donde sucede un evento en medio del proceso",
+      "Iniciar una Tarea en un punto intermedio"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "answered": false,
     "id": 100
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de funciones sin servidor (serverless)?",
+    "question": "¿Cuál es la principal característica de una tarea en un proceso BPM?",
     "options": [
-      "AWS Lambda",
-      "Google Cloud Functions",
-      "Azure Functions",
-      "Oracle Functions"
+      "Se ejecuta únicamente por sistemas externos",
+      "Siempre requiere intervención humana",
+      "Representa una unidad de trabajo dentro del proceso",
+      "No puede ser parte de un subproceso"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 101
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona una plataforma para el procesamiento y análisis de secuencias de video en tiempo real?",
+    "question": "¿Qué tipo de tarea en BPM se utiliza cuando se requiere que una persona la ejecute?",
     "options": [
-      "Amazon Rekognition Video",
-      "Google Cloud Video Intelligence",
-      "Microsoft Azure Video Indexer",
-      "Oracle Video Analytics"
+      "Tarea de servicio",
+      "Tarea automática",
+      "Tarea de usuario",
+      "Evento de mensaje"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 102
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de chatbots?",
+    "question": "¿Cuál es el propósito de una tarea de servicio en BPMN?",
     "options": [
-      "Amazon Lex",
-      "Google Dialogflow",
-      "Microsoft Azure Bot Service",
-      "IBM Watson Assistant"
+      "Ejecutar una actividad que requiere decisión humana",
+      "Iniciar un proceso manual externo",
+      "Interactuar con un sistema o servicio automatizado",
+      "Controlar el flujo condicional del proceso"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 103
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona herramientas y servicios para el desarrollo de aplicaciones de Internet de las Cosas (IoT)?",
+    "question": "¿Qué sucede cuando una tarea se marca como completada en un BPM?",
     "options": [
-      "AWS IoT Core",
-      "Google Cloud IoT Core",
-      "Microsoft Azure IoT Hub",
-      "IBM Watson IoT Platform"
+      "El proceso se reinicia desde el principio",
+      "Se elimina del historial del proceso",
+      "El flujo de trabajo avanza al siguiente paso definido",
+      "El usuario debe confirmar su ejecución manualmente siempre"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 104
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y prueba de aplicaciones móviles?",
+    "question": "¿Cuál de los siguientes elementos NO es un tipo de tarea en BPMN?",
     "options": [
-      "Firebase",
-      "Google Cloud Mobile",
-      "Microsoft Azure Mobile Apps",
-      "Oracle Mobile Hub"
+      "Tarea de usuario",
+      "Tarea de recepción",
+      "Tarea de envío",
+      "Tarea de evaluación"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "answered": false,
     "id": 105
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube es conocido por su capacidad de procesamiento y análisis de grandes volúmenes de datos?",
+    "question": "¿Cuál es el propósito principal de un subproceso en BPM?",
     "options": [
-      "Amazon Kinesis",
-      "Google Cloud Pub/Sub",
-      "Microsoft Azure Event Hubs",
-      "Oracle Streaming Service"
+      "Aumentar la complejidad del modelo",
+      "Ejecutar eventos externos al proceso",
+      "Reutilizar y organizar partes del proceso principal",
+      "Reemplazar completamente el proceso principal"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 106
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una base de datos NoSQL altamente escalable y administrada?",
+    "question": "¿Cuál de los siguientes subprocesos se ejecuta como parte del flujo principal y su lógica está totalmente visible en el diagrama?",
     "options": [
-      "Amazon DynamoDB",
-      "Google Cloud Firestore",
-      "Microsoft Azure Cosmos DB",
-      "Oracle NoSQL Database"
+      "Subproceso colapsado",
+      "Subproceso embebido",
+      "Subproceso de evento",
+      "Subproceso independiente"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 107
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona un servicio de autenticación y autorización para aplicaciones web y móviles?",
+    "question": "¿Qué característica distingue a un subproceso colapsado en BPMN?",
     "options": [
-      "Firebase Authentication",
-      "Google Identity Platform",
-      "Microsoft Azure Active Directory",
-      "Oracle Identity Cloud Service"
+      "Contiene lógica visible dentro del diagrama",
+      "Está diseñado exclusivamente para eventos de error",
+      "Se representa con un signo \"+\" y oculta su contenido interno",
+      "No puede reutilizarse en otros procesos"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 108
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de chatbots?",
+    "question": "¿Cuál es una ventaja clave de utilizar subprocesos reutilizables en BPM?",
     "options": [
-      "Amazon Lex",
-      "Google Dialogflow",
-      "Microsoft Azure Bot Service",
-      "Oracle Digital Assistant"
+      "Aumentan la redundancia del proceso",
+      "Evitan el uso de diagramas principales",
+      "Permiten mantener lógica común en un solo lugar",
+      "Solo son útiles en tareas humanas"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 109
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona herramientas y servicios para el desarrollo de aplicaciones de Internet de las Cosas (IoT)?",
+    "question": "¿Qué tipo de subproceso se activa por un evento, como un mensaje o error, y puede interrumpir o no el proceso principal?",
     "options": [
-      "AWS IoT Core",
-      "Google Cloud IoT Core",
-      "Microsoft Azure IoT Hub",
-      "Oracle Internet of Things Cloud Service"
+      "Subproceso normal",
+      "Subproceso embebido",
+      "Subproceso de evento",
+      "Subproceso manual"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 110
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el análisis y visualización de datos?",
+    "question": "¿Qué representa un Depósito de Datos (Data Store) en un modelo BPMN?",
     "options": [
-      "Amazon QuickSight",
-      "Google Data Studio",
-      "Power BI (Microsoft)",
-      "Oracle Analytics Cloud"
+      "Un contenedor temporal de información de ejecución",
+      "Un repositorio persistente de información accesible por tareas o procesos",
+      "Un canal de comunicación entre procesos humanos",
+      "Una interfaz gráfica de usuario para ingresar datos al sistema"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 111
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona herramientas y servicios para la gestión de API?",
+    "question": "¿Cuál de los siguientes elementos de BPMN se utiliza para conectar una tarea con un depósito de datos?",
     "options": [
-      "Amazon API Gateway",
-      "Google Cloud Endpoints",
-      "Azure API Management",
-      "Oracle API Gateway"
+      "Flujo de secuencia",
+      "Asociación de datos",
+      "Flujo de mensaje",
+      "Evento de enlace"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 112
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de aplicaciones de voz y chat en tiempo real?",
+    "question": "¿Qué diferencia principal existe entre un Data Store y un Data Object en BPMN?",
     "options": [
-      "Amazon Lex",
-      "Google Dialogflow",
-      "Azure Bot Service",
-      "Oracle Chatbot"
+      "El Data Object es persistente y el Data Store no",
+      "El Data Store es parte de una tarea y el Data Object es global",
+      "El Data Store conserva datos entre instancias del proceso, el Data Object no",
+      "Ambos elementos tienen exactamente el mismo propósito"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 113
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona un sistema de almacenamiento de objetos y archivos escalable y duradero?",
+    "question": "¿En qué situación se usa un Depósito de Datos en BPMN?",
     "options": [
-      "Amazon S3",
-      "Google Cloud Storage",
-      "Microsoft Azure Blob Storage",
-      "Oracle Object Storage"
+      "Para almacenar resultados que se deben conservar más allá de la ejecución del proceso",
+      "Para controlar la lógica de flujo de un subproceso",
+      "Para generar notificaciones a usuarios del sistema",
+      "Para capturar eventos temporales del entorno externo"
     ],
     "correctAnswer": 0,
     "answered": false,
     "id": 114
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una plataforma para el procesamiento y análisis de datos en tiempo real de dispositivos IoT?",
+    "question": "¿Qué representa la dirección de la flecha en una Asociación de Datos hacia o desde un Depósito de Datos?",
     "options": [
-      "AWS IoT Analytics",
-      "Google Cloud IoT Analytics",
-      "Azure Stream Analytics",
-      "Oracle IoT Analytics Cloud"
+      "Si el proceso se detiene o continúa",
+      "Si el dato se copia o se mueve",
+      "Si la tarea lee (entrada) o escribe (salida) datos",
+      "Si el dato es válido o no"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 115
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona servicios de detección y mitigación de ataques DDoS?",
+    "question": "¿Qué tipo de compuerta se utiliza para unir múltiples flujos en uno solo sin condiciones?",
     "options": [
-      "AWS Shield",
-      "Google Cloud Armor",
-      "Azure DDoS Protection",
-      "Oracle Cloud Infrastructure WAF"
+      "Compuerta exclusiva (XOR)",
+      "Compuerta paralela (AND)",
+      "Compuerta inclusiva (OR)",
+      "Evento de fin"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 116
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una plataforma para la creación y administración de flujos de trabajo empresariales?",
+    "question": "¿Cuál de las siguientes afirmaciones sobre la compuerta exclusiva (XOR) es correcta en una convergencia de flujo?",
     "options": [
-      "AWS Step Functions",
-      "Google Cloud Workflows",
-      "Azure Logic Apps",
-      "Oracle Process Cloud Service"
+      "Permite que todos los caminos activos se unan simultáneamente",
+      "Espera que todos los flujos lleguen antes de continuar",
+      "Solo uno de los flujos entrantes puede llegar a la compuerta",
+      "Selecciona el camino con menor tiempo de ejecución"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 117
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de aplicaciones de aprendizaje automático (machine learning)?",
+    "question": "¿Qué sucede si en una convergencia con compuerta paralela (AND) no todos los flujos llegan?",
     "options": [
-      "Amazon SageMaker",
-      "Google Cloud AI Platform",
-      "Azure Machine Learning",
-      "Oracle Machine Learning"
+      "El proceso avanza sin problemas",
+      "El flujo se bloquea y nunca continúa",
+      "El sistema elige el flujo más corto",
+      "Se activa una compuerta de error automáticamente"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 118
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona servicios de análisis y detección de anomalías en datos de series temporales?",
+    "question": "¿Cuál es la principal ventaja de una compuerta inclusiva (OR) en convergencia?",
     "options": [
-      "Amazon CloudWatch",
-      "Google Cloud Monitoring",
-      "Azure Monitor",
-      "Oracle Management Cloud"
+      "Solo acepta un flujo de entrada",
+      "Permite la convergencia flexible de múltiples caminos activos",
+      "Reduce el tiempo de ejecución del proceso",
+      "Se utiliza para representar tareas manuales"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 119
   },
   {
-    "question": "¿Cuál de las siguientes opciones es un servicio RESTful en la nube que permite la implementación y administración de aplicaciones en contenedores?",
+    "question": "¿Cuál es el riesgo más común al usar convergencias paralelas (AND) sin una correcta coordinación de flujos previos?",
     "options": [
-      "Amazon Elastic Container Service (ECS)",
-      "Google Kubernetes Engine (GKE)",
-      "Microsoft Azure Container Instances",
-      "Oracle Container Engine for Kubernetes"
+      "Pérdida de datos",
+      "Desincronización visual del diagrama",
+      "Deadlock o bloqueo del proceso",
+      "Ejecución simultánea no controlada"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 120
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube es ampliamente utilizado para el almacenamiento y recuperación de datos?",
+    "question": "¿Qué representa un evento en un modelo BPMN?",
     "options": [
-      "Amazon S3",
-      "Google Cloud Storage",
-      "Microsoft Azure Blob Storage",
-      "IBM Cloud Object Storage"
+      "Una tarea ejecutada manualmente",
+      "Un cambio de rol en un proceso",
+      "Algo que ocurre e impacta el flujo del proceso",
+      "Una condición lógica de salida"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 121
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una plataforma completa para el desarrollo y despliegue de aplicaciones web?",
+    "question": "¿Cuál de los siguientes eventos se utiliza para indicar el comienzo de un proceso?",
     "options": [
-      "Amazon Elastic Beanstalk",
-      "Google App Engine",
-      "Microsoft Azure App Service",
-      "IBM Cloud Foundry"
+      "Evento intermedio",
+      "Evento de fin",
+      "Evento de error",
+      "Evento de inicio"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "answered": false,
     "id": 122
   },
   {
-    "question": "¿Cuál de las siguientes opciones es un servicio RESTful en la nube que permite la implementación y administración de aplicaciones en contenedores?",
+    "question": "¿Qué tipo de evento BPMN puede interrumpir un proceso o subproceso cuando ocurre?",
     "options": [
-      "Amazon Elastic Container Service (ECS)",
-      "Google Kubernetes Engine (GKE)",
-      "Microsoft Azure Container Instances",
-      "IBM Cloud Kubernetes Service"
+      "Evento de mensaje no interruptivo",
+      "Evento intermedio de error interruptivo",
+      "Evento de temporizador condicional",
+      "Evento de fin estándar"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 123
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y prueba de aplicaciones móviles?",
+    "question": "¿Qué evento BPMN se usa para representar una espera por un mensaje externo antes de continuar?",
     "options": [
-      "Amazon Device Farm",
-      "Firebase Test Lab",
-      "Microsoft Azure Mobile App Testing",
-      "IBM Mobile Foundation"
+      "Evento de error",
+      "Evento intermedio de mensaje",
+      "Evento de fin",
+      "Compuerta paralela"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 124
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube es conocido por su capacidad de procesamiento y análisis de grandes volúmenes de datos?",
+    "question": "¿Cuál es el efecto de un evento de fin en un proceso BPMN?",
     "options": [
-      "Amazon Kinesis",
-      "Google Cloud Pub/Sub",
-      "Microsoft Azure Event Hubs",
-      "IBM Event Streams"
+      "Marca el punto donde se guarda el estado del proceso",
+      "Activa el siguiente subproceso",
+      "Indica la finalización del flujo actual",
+      "Requiere una aprobación para continuar"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 125
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una base de datos NoSQL altamente escalable y administrada?",
+    "question": "Las compuertas o puertas de enlace, nos permiten dividir o unir flujos",
     "options": [
-      "Amazon DynamoDB",
-      "Google Cloud Firestore",
-      "Microsoft Azure Cosmos DB",
-      "IBM Cloudant"
+      "Verdadero",
+      "Falso"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "answered": false,
     "id": 126
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona un servicio de autenticación y autorización para aplicaciones web y móviles?",
+    "question": "Un subproceso no pertenece a la clase de actividades",
     "options": [
-      "Amazon Cognito",
-      "Firebase Authentication",
-      "Microsoft Azure Active Directory",
-      "IBM App ID"
+      "Verdadero",
+      "Falso"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 127
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de funciones sin servidor (serverless)?",
+    "question": "¿Qué es un mashup en el contexto de la informática?",
     "options": [
-      "AWS Lambda",
-      "Google Cloud Functions",
-      "Azure Functions",
-      "IBM Cloud Functions"
+      "Una mezcla de diferentes ingredientes culinarios.",
+      "Una combinación de música y vídeo en tiempo real.",
+      "Una aplicación web que combina datos o funcionalidades de múltiples fuentes.",
+      "Un término coloquial para referirse a un equipo de programadores."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 128
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el análisis y visualización de datos?",
+    "question": "¿Cuál es el objetivo principal de un mashup?",
     "options": [
-      "Amazon QuickSight",
-      "Google Data Studio",
-      "Power BI (Microsoft)",
-      "IBM Cognos Analytics"
+      "Crear aplicaciones independientes sin interacción con otras fuentes.",
+      "Simplificar las interacciones con una sola fuente de datos.",
+      "Combinar datos o funcionalidades de diversas fuentes para crear nuevas aplicaciones.",
+      "Limitar el acceso a servicios externos para mejorar la seguridad."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 129
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona herramientas y servicios para la gestión de API?",
+    "question": "¿Qué tecnologías son comúnmente utilizadas en el desarrollo de mashups?",
     "options": [
-      "Amazon API Gateway",
-      "Google Cloud Endpoints",
-      "Azure API Management",
-      "IBM API Connect"
+      "JavaScript, HTML y CSS.",
+      "Lenguaje C++, Python y Java.",
+      "ASP.NET, PHP y Ruby on Rails.",
+      "MySQL, Oracle y SQL Server."
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "answered": false,
     "id": 130
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de aplicaciones de voz y chat en tiempo real?",
+    "question": "¿Qué tipo de mashup utiliza principalmente APIs de diferentes servicios web?",
     "options": [
-      "Amazon Lex",
-      "Google Dialogflow",
-      "Azure Bot Service",
-      "IBM Watson Assistant"
+      "Mashup de datos.",
+      "Mashup de música.",
+      "Mashup de imágenes.",
+      "Mashup de videos."
     ],
     "correctAnswer": 0,
     "answered": false,
     "id": 131
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona un sistema de almacenamiento de objetos y archivos escalable y duradero?",
+    "question": "¿Cuál es un ejemplo de un mashup famoso?",
     "options": [
-      "Amazon S3",
-      "Google Cloud Storage",
-      "Microsoft Azure Blob Storage",
-      "IBM Cloud Object Storage"
+      "Facebook.",
+      "Google Maps.",
+      "Microsoft Office.",
+      "Photoshop."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "answered": false,
     "id": 132
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una plataforma para el procesamiento y análisis de datos en tiempo real de dispositivos IoT?",
+    "question": "¿Qué es un mashup en el contexto de desarrollo de software?",
     "options": [
-      "AWS IoT Analytics",
-      "Google Cloud IoT Analytics",
-      "Azure Stream Analytics",
-      "IBM Watson IoT Platform Analytics"
+      "Una técnica de criptografía en Java.",
+      "La combinación de dos o más APIs o servicios web para crear una nueva aplicación.",
+      "Una biblioteca gráfica para crear interfaces de usuario en Java.",
+      "Un método de optimización de base de datos en Java."
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 133
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona servicios de detección y mitigación de ataques DDoS?",
+    "question": "¿Por qué es importante considerar la seguridad al implementar mashups en Java?",
     "options": [
-      "AWS Shield",
-      "Google Cloud Armor",
-      "Azure DDoS Protection",
-      "IBM Cloud Internet Services"
+      "No es necesario preocuparse por la seguridad en mashups.",
+      "Los mashups no pueden ser implementados en Java.",
+      "Debido a que los datos de diferentes fuentes pueden ser potencialmente inseguros o maliciosos.",
+      "La seguridad solo es importante en aplicaciones nativas, no en mashups."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 134
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona una plataforma para la creación y administración de flujos de trabajo empresariales?",
+    "question": "¿Cuál es un beneficio clave de implementar mashups en Java?",
     "options": [
-      "Amazon Step Functions",
-      "Google Cloud Workflows",
-      "Azure Logic Apps",
-      "IBM Business Automation Workflow"
+      "No requiere conexión a Internet.",
+      "Requiere menos programación que otras plataformas.",
+      "Permite la creación de aplicaciones altamente personalizadas al combinar múltiples fuentes de datos.",
+      "Es más lento en comparación con otras tecnologías."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 135
   },
   {
-    "question": "¿Cuál de los siguientes servicios RESTful en la nube proporciona servicios de análisis y detección de anomalías en datos de series temporales?",
+    "question": "¿Qué es un mashup en el contexto de desarrollo de software en .NET?",
     "options": [
-      "Amazon CloudWatch",
-      "Google Cloud Monitoring",
-      "Azure Monitor",
-      "IBM Cloud Pak for Data"
+      "Una técnica de encriptación de datos en .NET.",
+      "La integración de varios lenguajes de programación en una sola aplicación .NET.",
+      "La combinación de datos y servicios de diferentes fuentes para crear una nueva aplicación en .NET.",
+      "Un sistema de gestión de bases de datos en .NET."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 136
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de aplicaciones de aprendizaje automático (machine learning)?",
+    "question": "¿Cuál es un ejemplo de un mashup implementado en .NET?",
     "options": [
-      "Amazon SageMaker",
-      "Google Cloud AI Platform",
-      "Azure Machine Learning",
-      "IBM Watson Machine Learning"
+      "Combinar diferentes algoritmos de encriptación en una aplicación.",
+      "Integrar varios frameworks de desarrollo en una sola aplicación.",
+      "Unir datos de un servicio de redes sociales con información de un servicio de mapas para mostrar la ubicación de amigos en un mapa.",
+      "Utilizar múltiples sistemas operativos en una misma aplicación."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 137
   },
   {
-    "question": "¿Cuál de los siguientes no es un método HTTP comúnmente utilizado en una operación RESTful?",
+    "question": "¿Cuál es el papel de .NET en la implementación de mashups?",
     "options": [
-      "GET",
-      "POST",
-      "UPDATE",
-      "DELETE"
+      ".NET proporciona una interfaz gráfica para diseñar mashups.",
+      ".NET solo se utiliza para optimizar el rendimiento de las aplicaciones.",
+      ".NET es utilizado para combinar y procesar datos de diferentes fuentes, crear lógica y presentar resultados.",
+      ".NET se utiliza exclusivamente para encriptar la comunicación entre servicios web."
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 138
   },
   {
-    "question": "¿Qué formato de datos es comúnmente utilizado para representar la información en una respuesta RESTful en la nube en .NET?",
+    "question": "¿Por qué es importante considerar la seguridad al implementar mashups en .NET?",
     "options": [
-      "XML",
-      "JSON",
-      "HTML",
-      "YAML"
+      "La seguridad no es relevante en las aplicaciones .NET.",
+      ".NET no permite la implementación de mashups.",
+      "Los datos provenientes de diferentes fuentes pueden contener amenazas de seguridad.",
+      "La seguridad solo es necesaria en aplicaciones móviles, no en mashups."
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 139
   },
   {
-    "question": "¿Cuál de las siguientes no es una ventaja de usar RESTful en servicios en la nube en .NET?",
+    "question": "¿Cuál es un beneficio clave de implementar mashups en .NET?",
     "options": [
-      "Arquitectura simple y fácil de entender",
-      "Alta flexibilidad y escalabilidad",
-      "Mayor seguridad integrada con WS-Security",
-      "Amplia adopción y soporte en frameworks y bibliotecas"
+      "No requiere acceso a servicios web o APIs.",
+      "Requiere menos código en comparación con otras tecnologías.",
+      "Permite la creación de aplicaciones más ricas y personalizadas al combinar datos y servicios de diferentes fuentes.",
+      "Es menos flexible en comparación con otras tecnologías."
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 140
   },
   {
-    "question": "¿Cuál de los siguientes lenguajes de programación es comúnmente utilizado para implementar servicios RESTful en la nube en .NET?",
+    "question": "¿Cuál de las siguientes tecnologías se utiliza comúnmente para integrar datos y contenido de diferentes fuentes en un mashup web?",
     "options": [
-      "JavaScript",
-      "Python",
-      "PHP",
-      "C#"
+      "JSON",
+      "XML",
+      "CSS",
+      "HTML"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "answered": false,
     "id": 141
   },
   {
-    "question": "¿Cuál de los siguientes no es una restricción de RESTful?",
+    "question": "¿Qué tipo de API se utiliza típicamente para acceder a datos y servicios web externos en el desarrollo de mashups web?",
     "options": [
-      "Stateless",
-      "Client-Server",
+      "REST",
       "SOAP",
-      "Cacheable"
+      "GraphQL",
+      "TCP/IP"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "answered": false,
     "id": 142
   },
   {
-    "question": "¿Cuál de las siguientes no es una desventaja de usar RESTful en servicios en la nube en .NET?",
+    "question": "¿Cuál de las siguientes características es esencial para la seguridad de un mashup web?",
     "options": [
-      "Menor soporte para comunicación síncrona y asíncrona",
-      "Mayor complejidad en la gestión de transacciones",
-      "Limitado soporte para describir la interfaz de servicio",
-      "Falta de seguridad integrada en el protocolo"
+      "XSS (Cross-Site Scripting)",
+      "SQL Injection",
+      "CSRF (Cross-Site Request Forgery)",
+      "Ninguna de las anteriores"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 143
   },
   {
-    "question": "¿Cuál de los siguientes no es un código de estado HTTP comúnmente utilizado en una respuesta RESTful exitosa?",
+    "question": "¿Qué herramienta es comúnmente utilizada para el desarrollo de mashups web en el lado del cliente?",
     "options": [
-      "200 OK",
-      "201 Created",
-      "204 No Content",
-      "404 Not Found"
+      "React.js",
+      "Express.js",
+      "Flask",
+      "jQuery"
     ],
     "correctAnswer": 3,
     "answered": false,
     "id": 144
   },
   {
-    "question": "¿Cuál de los siguientes no es un formato de datos comúnmente utilizado para representar recursos en una solicitud RESTful en .NET?",
+    "question": "¿Qué enfoque de autenticación es comúnmente utilizado para acceder a APIs externas en mashups web?",
     "options": [
-      "XML",
-      "JSON",
-      "HTML",
-      "YAML"
+      "Basic Authentication",
+      "OAuth",
+      "JWT (JSON Web Tokens)",
+      "NTLM (Windows Integrated Authentication)"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "answered": false,
     "id": 145
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de autenticación comúnmente utilizado en servicios RESTful en .NET?",
+    "question": "¿Qué lenguaje de marcado se utiliza comúnmente para definir la estructura y el contenido de las páginas web en un mashup?",
     "options": [
-      "Basic Authentication",
-      "Digest Authentication",
-      "Token-based Authentication",
-      "WS-Security Authentication"
+      "XML",
+      "HTML",
+      "CSS",
+      "JavaScript"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "answered": false,
     "id": 146
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar comúnmente utilizado para la documentación de servicios RESTful en .NET?",
+    "question": "¿Qué tipo de autenticación se utiliza comúnmente para acceder a recursos locales en un mashup web?",
     "options": [
-      "RAML",
-      "WSDL",
-      "OpenAPI (anteriormente conocido como Swagger)",
-      "API Blueprint"
+      "OAuth",
+      "Basic Authentication",
+      "NTLM",
+      "JWT"
     ],
     "correctAnswer": 1,
     "answered": false,
     "id": 147
   },
   {
-    "question": "¿Cuál de los siguientes no es un método HTTP comúnmente utilizado en una operación RESTful para eliminar un recurso?",
+    "question": "¿Qué técnica se utiliza comúnmente para evitar problemas de seguridad como la inyección de código malicioso en un mashup web?",
     "options": [
-      "GET",
-      "POST",
-      "DELETE",
-      "OPTIONS"
+      "Validación de datos",
+      "Escapado de caracteres",
+      "Sanitización de entradas",
+      "Todas las anteriores"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "answered": false,
     "id": 148
   },
   {
-    "question": "¿Cuál de los siguientes no es un tipo de seguridad comúnmente utilizado en servicios RESTful en .NET?",
+    "question": "¿Cuál de las siguientes tecnologías se utiliza comúnmente para el intercambio de datos entre el cliente y el servidor en un mashup web?",
     "options": [
-      "HTTPS",
-      "OAuth",
-      "JWT",
-      "SSL"
+      "JSON",
+      "XML",
+      "SQL",
+      "Ninguna de las anteriores"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "answered": false,
     "id": 149
   },
   {
-    "question": "¿Cuál de los siguientes no es un beneficio común de la arquitectura RESTful en servicios en la nube en .NET?",
+    "question": "¿Qué tipo de arquitectura es comúnmente utilizada para el desarrollo de mashups web que requieren integración de múltiples fuentes de datos y servicios?",
     "options": [
-      "Escalabilidad y rendimiento mejorados",
-      "Separación clara entre cliente y servidor",
-      "Mayor facilidad de caché y rendimiento",
-      "Mayor soporte para contratos de servicio formales"
+      "Monolítica",
+      "Microservices",
+      "Client-Server",
+      "Service-Oriented Architecture (SOA)"
     ],
     "correctAnswer": 3,
     "answered": false,
     "id": 150
   },
   {
-    "question": "¿Cuál de los siguientes no es un nivel de madurez comúnmente utilizado en la arquitectura de servicios RESTful?",
+    "question": "¿Cuál de las siguientes tecnologías es fundamental para la integración de datos en un mashup?",
     "options": [
-      "Nivel 0 - POX (Plain Old XML)",
-      "Nivel 1 - Servicios Web SOAP",
-      "Nivel 2 - Servicios Web RESTful",
-      "Nivel 3 - Hypermedia as the Engine of Application State (HATEOAS)"
+      "XML",
+      "SQL",
+      "JSON",
+      "HTML"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "answered": false,
     "id": 151
   },
   {
-    "question": "¿Cuál de los siguientes no es un beneficio común de usar JSON en servicios RESTful en .NET?",
+    "question": "¿Qué protocolo se utiliza comúnmente para la integración de servicios web en mashups?",
     "options": [
-      "Fácil de leer y escribir para los humanos",
-      "Ligero y eficiente en términos de tamaño de datos",
-      "Ampliamente compatible y fácil de parsear en diferentes plataformas",
-      "Proporciona seguridad adicional mediante encriptación de datos"
+      "FTP (File Transfer Protocol)",
+      "HTTP (Hypertext Transfer Protocol)",
+      "SMTP (Simple Mail Transfer Protocol)",
+      "XML-RPC (XML Remote Procedure Call)"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "answered": false,
     "id": 152
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar comúnmente utilizado para la autenticación y autorización en servicios RESTful en .NET?",
+    "question": "¿Cuál de las siguientes tecnologías es esencial para el desarrollo de mashups del lado del cliente?",
     "options": [
-      "OAuth",
-      "JWT",
-      "SAML",
-      "SSL"
+      "Java",
+      "Python",
+      "jQuery",
+      "Ruby on Rails"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "answered": false,
     "id": 153
   },
   {
-    "question": "¿Cuál de los siguientes no es una práctica recomendada para diseñar una API RESTful en .NET?",
+    "question": "¿Qué enfoque de autenticación se utiliza comúnmente en mashups para acceder a APIs externas?",
     "options": [
-      "Utilizar adecuadamente los verbos HTTP para cada operación",
-      "Utilizar versionamiento de API para cambios futuros",
-      "Exponer todos los detalles internos del servidor en las respuestas",
-      "Proporcionar una documentación clara y completa de la API"
+      "JWT (JSON Web Tokens)",
+      "Basic Authentication",
+      "OAuth",
+      "NTLM (Windows Integrated Authentication)"
     ],
     "correctAnswer": 2,
     "answered": false,
     "id": 154
   },
   {
-    "question": "¿Cuál de los siguientes no es un componente comúnmente utilizado en una URL de una API RESTful en .NET?",
+    "question": "¿Qué tipo de arquitectura se utiliza comúnmente en el desarrollo de mashups para integrar múltiples servicios web?",
     "options": [
-      "Protocolo",
-      "Dominio",
-      "Endpoint",
-      "Puerto"
+      "Monolítica",
+      "Cliente-servidor",
+      "Orientada a Servicios (SOA)",
+      "Peer-to-peer"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "answered": false,
     "id": 155
   },
   {
-    "question": "¿Cuál de los siguientes no es un estándar comúnmente utilizado para describir una API RESTful en .NET?",
+    "question": "¿Cuál de los siguientes no es un método común para evitar problemas de seguridad en mashups?",
     "options": [
-      "WSDL",
-      "RAML",
-      "OpenAPI (anteriormente conocido como Swagger)",
-      "API Blueprint"
+      "Validación de datos",
+      "Encriptación de datos",
+      "Uso de HTTPS",
+      "Exposición de credenciales en el código fuente"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "answered": false,
     "id": 156
   },
   {
-    "question": "¿Cuál de los siguientes protocolos es utilizado comúnmente para implementar servicios RESTful en la nube con .NET?",
+    "question": "¿Qué tecnología se utiliza comúnmente para la transmisión de datos estructurados en mashups?",
     "options": [
-      "SOAP",
-      "FTP",
-      "SMTP",
-      "HTTP"
+      "HTML",
+      "XML",
+      "CSS",
+      "JavaScript"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "answered": false,
     "id": 157
   },
   {
-    "question": "¿Qué servicio RESTful en la nube proporciona herramientas y servicios para el desarrollo y despliegue de aplicaciones de aprendizaje automático (machine learning)?",
+    "question": "¿Qué tipo de prueba es esencial para garantizar la calidad y la seguridad en el desarrollo de mashups?",
     "options": [
-      "Amazon SageMaker",
-      "Google Cloud AI Platform",
-      "Azure Machine Learning",
-      "Oracle Machine Learning"
+      "Pruebas unitarias",
+      "Pruebas de penetración",
+      "Pruebas de aceptación del usuario",
+      "Todas las anteriores"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "answered": false,
     "id": 158
   },
   {
-    "question": "¿Cuál de los siguientes servicios SOAP en la nube proporciona servicios de aprendizaje automático y análisis de datos?",
+    "question": "¿Qué tecnología se utiliza comúnmente para el intercambio de datos entre el cliente y el servidor en mashups web?",
     "options": [
-      "Amazon Machine Learning",
-      "Google Cloud AutoML",
-      "Microsoft Azure Machine Learning",
-      "Salesforce Einstein Analytics"
+      "SQL",
+      "HTML",
+      "JavaScript",
+      "AJAX (Asynchronous JavaScript and XML)"
+    ],
+    "correctAnswer": 3,
+    "answered": false,
+    "id": 159
+  },
+  {
+    "question": "¿Qué método se utiliza comúnmente para integrar contenido de diferentes fuentes en un mashup?",
+    "options": [
+      "Web scraping",
+      "FTP (File Transfer Protocol)",
+      "API (Application Programming Interface)",
+      "SOAP (Simple Object Access Protocol)"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 160
+  },
+  {
+    "question": "¿Cuál de las siguientes tecnologías es más comúnmente utilizada en el desarrollo de mashups web?",
+    "options": [
+      "HTML",
+      "Java",
+      "JavaScript",
+      "PHP"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 161
+  },
+  {
+    "question": "¿Qué protocolo de comunicación es ampliamente utilizado en el intercambio de datos entre el cliente y el servidor en mashups web?",
+    "options": [
+      "FTP",
+      "HTTP",
+      "SMTP",
+      "SSH"
     ],
     "correctAnswer": 1,
     "answered": false,
-    "id": 159
+    "id": 162
+  },
+  {
+    "question": "¿Cuál de las siguientes es una práctica de seguridad importante en el desarrollo de mashups?",
+    "options": [
+      "Validación de datos de entrada",
+      "Uso de contraseñas en texto plano",
+      "Ejecución de código no confiable en el servidor",
+      "Ninguna de las anteriores"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 163
+  },
+  {
+    "question": "¿Cuál de las siguientes herramientas es más comúnmente utilizada para el desarrollo de interfaces de usuario en mashups web?",
+    "options": [
+      "AngularJS",
+      "Ruby on Rails",
+      "Flask",
+      "Django"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 164
+  },
+  {
+    "question": "¿Qué tipo de autenticación es comúnmente utilizada para acceder a APIs externas en mashups?",
+    "options": [
+      "OAuth",
+      "Basic Authentication",
+      "JWT",
+      "NTLM"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 165
+  },
+  {
+    "question": "¿Cuál de las siguientes tecnologías se utiliza para integrar contenido de diferentes fuentes en un mashup?",
+    "options": [
+      "XML-RPC",
+      "SOAP",
+      "API RESTful",
+      "FTP"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 166
+  },
+  {
+    "question": "¿Cuál de las siguientes prácticas es importante para mejorar el rendimiento de un mashup web?",
+    "options": [
+      "Uso excesivo de recursos del servidor",
+      "Minimización de solicitudes HTTP",
+      "No almacenar en caché recursos estáticos",
+      "Todas las anteriores"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 167
+  },
+  {
+    "question": "¿Qué técnica se utiliza comúnmente para evitar problemas de seguridad como la inyección de código malicioso en mashups web?",
+    "options": [
+      "Validación de datos de entrada",
+      "Escapado de caracteres",
+      "Sanitización de entradas",
+      "Todas las anteriores"
+    ],
+    "correctAnswer": 3,
+    "answered": false,
+    "id": 168
+  },
+  {
+    "question": "¿Cuál de las siguientes es una consideración importante al desarrollar mashups móviles?",
+    "options": [
+      "Diseño responsive",
+      "Uso exclusivo de tecnologías nativas",
+      "Falta de soporte para APIs",
+      "Ninguna de las anteriores"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 169
+  },
+  {
+    "question": "¿Cuál de las siguientes arquitecturas es más adecuada para el desarrollo de mashups?",
+    "options": [
+      "Arquitectura monolítica",
+      "Arquitectura orientada a servicios (SOA)",
+      "Arquitectura distribuida",
+      "Arquitectura cliente-servidor"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 170
+  },
+  {
+    "question": "¿Cuál de las siguientes tecnologías es esencial para la interacción dinámica en un mashup?",
+    "options": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 171
+  },
+  {
+    "question": "¿Qué protocolo se utiliza comúnmente para la comunicación entre el cliente y el servidor en un mashup?",
+    "options": [
+      "SMTP",
+      "FTP",
+      "HTTP",
+      "SSH"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 172
+  },
+  {
+    "question": "¿Cuál de las siguientes prácticas ayuda a mejorar la seguridad en el desarrollo de mashups?",
+    "options": [
+      "Validación de entradas de usuario",
+      "Exposición de contraseñas en texto plano",
+      "Ejecución de código no seguro en el servidor",
+      "Ninguna de las anteriores"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 173
+  },
+  {
+    "question": "¿Qué tecnología se utiliza comúnmente para la implementación de interfaces de usuario en mashups?",
+    "options": [
+      "jQuery",
+      "Ruby on Rails",
+      "AngularJS",
+      "Flask"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 174
+  },
+  {
+    "question": "¿Qué tipo de autenticación se utiliza comúnmente para acceder a servicios externos en mashups?",
+    "options": [
+      "OAuth",
+      "Basic Authentication",
+      "JWT",
+      "NTLM"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 175
+  },
+  {
+    "question": "¿Qué tecnología se utiliza comúnmente para integrar contenido de diferentes fuentes en un mashup?",
+    "options": [
+      "SOAP",
+      "XML-RPC",
+      "API RESTful",
+      "FTP"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 176
+  },
+  {
+    "question": "¿Cuál de las siguientes prácticas es importante para mejorar el rendimiento de un mashup?",
+    "options": [
+      "Aumentar el número de solicitudes HTTP",
+      "No almacenar en caché recursos estáticos",
+      "No minimizar las solicitudes HTTP",
+      "Todas las anteriores"
+    ],
+    "correctAnswer": 3,
+    "answered": false,
+    "id": 177
+  },
+  {
+    "question": "¿Qué técnica se utiliza comúnmente para evitar problemas de seguridad como la inyección de código malicioso en mashups?",
+    "options": [
+      "Escapado de caracteres",
+      "Validación de datos de entrada",
+      "Ejecución de código no seguro en el servidor",
+      "Ninguna de las anteriores"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 178
+  },
+  {
+    "question": "¿Cuál de las siguientes es una consideración importante al desarrollar mashups móviles?",
+    "options": [
+      "Falta de soporte para APIs",
+      "Uso exclusivo de tecnologías nativas",
+      "Diseño responsive",
+      "Ninguna de las anteriores"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 179
+  },
+  {
+    "question": "¿Qué tipo de arquitectura es más adecuada para el desarrollo de mashups?",
+    "options": [
+      "Arquitectura monolítica",
+      "Arquitectura orientada a servicios (SOA)",
+      "Arquitectura distribuida",
+      "Arquitectura cliente-servidor"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 180
+  },
+  {
+    "question": "La arquitectura de un Mashup consta de tres participantes: Selecciona una de las siguientes respuestas posibles:",
+    "options": [
+      "La API, Hosting y los Proveedores de contenido",
+      "La API, Proveedores de Contenido y Usuario",
+      "La API, Hosting y Usuario",
+      "Google, servidores, usuarios"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 181
+  },
+  {
+    "question": "Estos son algunos de los Formatos dedicados al Intercambio de Datos Selecciona una o más de las siguientes respuestas posibles:",
+    "options": [
+      "XML, CSS, HTML",
+      "JSON, RSS, XML, CSS",
+      "RSS, JSON, XML",
+      "HTML, CSS, JSON"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 182
+  },
+  {
+    "question": "¿En qué etapa de la web nacen los mashups?",
+    "options": [
+      "Web 1.0",
+      "Web 2.0",
+      "Web 3.0",
+      "Internet de las Cosas"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 183
+  },
+  {
+    "question": "Atendiendo a sus características los mashups se pueden agrupar en",
+    "options": [
+      "Mashups consumidores, Mashups de datos y Mashups empresariales.",
+      "Mashups públicos, mashups privados y mashups híbridos",
+      "Mashups como software. Mashups como infraestructura y Mashups como servicio",
+      "APIs públicas y APIs privadas"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 184
+  },
+  {
+    "question": "Mashups que combinan datos de distintas fuentes y presentan una interfaz gráfica por lo general sencilla.",
+    "options": [
+      "Mashups consumidores",
+      "Mashups de datos",
+      "Mashups Empresariales",
+      "Mashups Musicales"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 185
+  },
+  {
+    "question": "Los mashups que mezclan información similar de distintas fuentes, presentando el resultado con un nuevo entorno gráfico.",
+    "options": [
+      "Mashups consumidores",
+      "Mashups de datos",
+      "Mashups Empresariales",
+      "Mashups Artísticos"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 186
+  },
+  {
+    "question": "El mashup que combina información tanto de fuentes externas como internas de la organización, aportando valor agregado a los datos de la propia institución.",
+    "options": [
+      "Mashups consumidores",
+      "Mashups de datos",
+      "Mashups Empresariales",
+      "Mashup de fotografía"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 187
+  },
+  {
+    "question": "Un buen ejemplo de Mashups consumidor",
+    "options": [
+      "Incluyen el API de Google Maps y Google Earth",
+      "Son aquellos que consumes datos a través de varios Web feeds como Yahoo, Google y Twitter.",
+      "Pueden ser enfocados incluso a un proceso o grupo de procesos determinado, agregando una funcionalidad colaborativa y obteniendo como resultado una aplicación de negocio apropiada.",
+      "Aplicación monolítica"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 188
+  },
+  {
+    "question": "Un buen ejemplo de Mashup de Datos",
+    "options": [
+      "Incluyen el API de Google Maps y Google Earth",
+      "Son aquellos que consumes datos a través de varios Web feeds como Yahoo, Google y Twitter.",
+      "Pueden ser enfocados incluso a un proceso o grupo de procesos determinado, agregando una funcionalidad colaborativa y obteniendo como resultado una aplicación de negocio apropiada.",
+      "Aplicación monolítica"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 189
+  },
+  {
+    "question": "Un buen ejemplo de Mashups Empresarial",
+    "options": [
+      "Incluyen el API de Google Maps y Google Earth",
+      "Son aquellos que consumes datos a través de varios Web feeds como Yahoo, Google y Twitter.",
+      "Pueden ser enfocados incluso a un proceso o grupo de procesos determinado, agregando una funcionalidad colaborativa y obteniendo como resultado una aplicación de negocio apropiada.",
+      "Aplicación monolítica"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 190
+  },
+  {
+    "question": "Un usuario está desarrollando una aplicación para administrar de forma remota un dispositivo de red a través de la API. Las características de la API deben admitir el modelo cliente-servidor, el formato de datos JSON o XML y la operación sin estado. ¿Qué es un estilo de arquitectura API que el desarrollador podría usar?",
+    "options": [
+      "Webhook",
+      "REST",
+      "SOAP",
+      "RPC"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 191
+  },
+  {
+    "question": "Una empresa manufacturera internacional está implementando una infraestructura industrial de la planta de Internet de las cosas. El diseño requiere que los recursos informáticos se encuentren lo más cerca posible del usuario. ¿Qué modelo de nube es adecuado para esta situación?",
+    "options": [
+      "Pública",
+      "Híbrida",
+      "Privada",
+      "Perimetral"
+    ],
+    "correctAnswer": 3,
+    "answered": false,
+    "id": 192
+  },
+  {
+    "question": "Un operador de red está probando una aplicación de administración de red que utiliza la API REST para comunicarse con dispositivos de red. El operador recibió un código de respuesta HTTP 403 en un paso de prueba. ¿Qué indica este código de respuesta?",
+    "options": [
+      "La página en la ubicación de URL HTTP no existe o está oculta.",
+      "Error en la solicitud debido a un problema del lado del cliente.",
+      "El cliente no se ha autenticado para acceder al sitio o a la llamada API.",
+      "El acceso no se concede en función de las credenciales proporcionadas."
+    ],
+    "correctAnswer": 3,
+    "answered": false,
+    "id": 193
+  },
+  {
+    "question": "¿Qué funcione HTTP corresponde a la función ACTUALIZAR en CRUD?",
+    "options": [
+      "POST",
+      "DELETE",
+      "PUT",
+      "GET"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 194
+  },
+  {
+    "question": "¿Qué ataque implica la inserción de código malicioso en sentencias SQL?",
+    "options": [
+      "Fuerza bruta",
+      "Inyección SQL",
+      "inclusión de archivos locales",
+      "Scripts entre sitios"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 195
+  },
+  {
+    "question": "¿Qué técnica se utiliza para ayudar a mitigar los ataques de inyección SQL?",
+    "options": [
+      "Utilizando procedimientos almacenados con el rol predeterminado «db_owner»",
+      "Asignar derechos de acceso de administrador o de DBA a la cuenta de la aplicación",
+      "Utilizando el mismo propietario o cuenta de administrador en las aplicaciones web para conectarse a la base de datos",
+      "Limitar el acceso de lectura a campos específicos de una tabla o combinaciones de tablas"
+    ],
+    "correctAnswer": 3,
+    "answered": false,
+    "id": 196
+  },
+  {
+    "question": "Un usuario realiza algunas llamadas API REST a un servidor y las respuestas del servidor incluyen código ejecutable de terceros. El usuario noto que las respuestas no funcionan. ¿Qué dispositivo de red puede impedir que se ejecute el código de terceros?",
+    "options": [
+      "Firewall",
+      "Servidor proxy",
+      "servidor proxy reversible",
+      "Switch de capa 3"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 197
+  },
+  {
+    "question": "¿Qué son los microservicios en arquitectura de software?",
+    "options": [
+      "Componentes monolíticos de una aplicación.",
+      "Pequeñas unidades de funcionalidad independientes.",
+      "Elementos gráficos en una interfaz de usuario.",
+      "Sistemas operativos para dispositivos móviles."
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 198
+  },
+  {
+    "question": "¿Cuál es uno de los beneficios clave de los microservicios?",
+    "options": [
+      "Mayor complejidad en el desarrollo.",
+      "Facilidad para mantener y escalar partes individuales de una aplicación.",
+      "Limitación en la cantidad de servicios que pueden utilizarse.",
+      "Dependencia en un único servicio para toda la aplicación."
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 199
+  },
+  {
+    "question": "¿Cuál es la idea principal detrás de la arquitectura de microservicios?",
+    "options": [
+      "Crear una aplicación monolítica única.",
+      "Dividir una aplicación en componentes independientes y autónomos.",
+      "Construir una aplicación en un único servidor.",
+      "Utilizar una arquitectura cliente-servidor."
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 200
+  },
+  {
+    "question": "¿Qué implicación tiene la independencia de los microservicios en términos de tecnología?",
+    "options": [
+      "Todos los microservicios deben utilizar la misma tecnología.",
+      "Cada microservicio puede utilizar la tecnología más conveniente para su función.",
+      "Los microservicios no pueden utilizar tecnología alguna.",
+      "Los microservicios solo pueden utilizar tecnologías propietarias."
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 201
+  },
+  {
+    "question": "¿Cuál es uno de los desafíos comunes al implementar microservicios?",
+    "options": [
+      "Reducción de la escalabilidad.",
+      "Dificultad en la comunicación entre microservicios.",
+      "Menor aislamiento de responsabilidades.",
+      "Mayor dependencia de un único servidor."
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 202
+  },
+  {
+    "question": "¿Qué tipo de comunicación se utiliza comúnmente entre microservicios?",
+    "options": [
+      "Comunicación síncrona mediante llamadas a procedimientos remotos.",
+      "Comunicación asíncrona a través de llamadas HTTP.",
+      "Comunicación exclusiva mediante bases de datos compartidas.",
+      "Comunicación a través de archivos locales."
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 203
+  },
+  {
+    "question": "¿Qué es la \"descomposición funcional\" en la arquitectura de microservicios?",
+    "options": [
+      "El proceso de crear microservicios más grandes y complejos.",
+      "La técnica de dividir una aplicación en microservicios más pequeños y especializados.",
+      "La práctica de fusionar microservicios para simplificar la administración.",
+      "El proceso de reemplazar microservicios con componentes monolíticos."
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 204
+  },
+  {
+    "question": "¿Qué se entiende por \"escalabilidad horizontal\" en el contexto de microservicios?",
+    "options": [
+      "Agregar más funciones a un microservicio.",
+      "Aumentar la capacidad de cómputo de un servidor.",
+      "Agregar más microservicios a la arquitectura.",
+      "Aumentar la complejidad de los microservicios."
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 205
+  },
+  {
+    "question": "¿Cuál de los siguientes es un ejemplo de una tecnología de contenedorización utilizada para implementar microservicios?",
+    "options": [
+      "HTML",
+      "Docker",
+      "jQuery",
+      "Node.js"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 206
+  },
+  {
+    "question": "¿Qué es la \"tolerancia a fallos\" en el contexto de microservicios?",
+    "options": [
+      "La incapacidad de los microservicios para recuperarse de errores.",
+      "La resistencia de los microservicios a cualquier cambio.",
+      "La capacidad de los microservicios para mantenerse operativos en caso de errores o fallas.",
+      "La dependencia de un único microservicio para todo el sistema."
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 207
+  },
+  {
+    "question": "¿Qué es un microservicio?",
+    "options": [
+      "Un sistema monolítico con múltiples módulos",
+      "Un servicio pequeño e independiente que realiza una única función",
+      "Un tipo de arquitectura de bases de datos distribuidas",
+      "Un sistema de contenedores para ejecutar aplicaciones"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 208
+  },
+  {
+    "question": "¿Cuál es la principal ventaja de usar microservicios en lugar de una arquitectura monolítica?",
+    "options": [
+      "Mayor complejidad de desarrollo",
+      "Escalabilidad independiente de cada servicio",
+      "Mayor tiempo de implementación",
+      "Menor uso de recursos computacionales"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 209
+  },
+  {
+    "question": "¿Qué protocolo es comúnmente usado para la comunicación entre microservicios?",
+    "options": [
+      "FTP",
+      "HTTP/HTTPS",
+      "SMTP",
+      "Telnet"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 210
+  },
+  {
+    "question": "¿Cuál de las siguientes herramientas se utiliza para gestionar la orquestación de microservicios?",
+    "options": [
+      "Kubernetes",
+      "GitHub",
+      "Jenkins",
+      "MySQL"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 211
+  },
+  {
+    "question": "¿Qué es un API Gateway en una arquitectura de microservicios?",
+    "options": [
+      "Un sistema de almacenamiento de datos centralizado.",
+      "Un servicio que autentica y autoriza usuarios",
+      "Un servicio que actúa como punto de entrada para todas las solicitudes a los microservicios",
+      "Una base de datos distribuida"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 212
+  },
+  {
+    "question": "¿Cuál es el principal reto de los microservicios?",
+    "options": [
+      "La escalabilidad",
+      "La comunicación y coordinación entre servicios",
+      "La reducción de costos",
+      "La facilidad de mantenimiento"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 213
+  },
+  {
+    "question": "¿Qué patrón de diseño se utiliza comúnmente para gestionar la comunicación entre microservicios?",
+    "options": [
+      "Singleton",
+      "Event Sourcing",
+      "CQRS (Command Query Responsibility Segregation)",
+      "Factory"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 214
+  },
+  {
+    "question": "¿Cómo se gestionan las bases de datos en una arquitectura de microservicios?",
+    "options": [
+      "Con una única base de datos centralizada para todos los servicios",
+      "Cada microservicio puede tener su propia base de datos independiente",
+      "Las bases de datos no se utilizan en microservicios",
+      "Utilizando bases de datos NoSQL exclusivamente"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 215
+  },
+  {
+    "question": "¿Cuál es una ventaja de usar contenedores (como Docker) para microservicios?",
+    "options": [
+      "Aislamiento y portabilidad de los servicios",
+      "Mayor consumo de recursos",
+      "Dificulta la comunicación entre microservicios",
+      "Dependencia de un único sistema operativo"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 216
+  },
+  {
+    "question": "¿Qué es el “Circuit Breaker” en la arquitectura de microservicios?",
+    "options": [
+      "Un servicio para manejar las autenticaciones",
+      "Un patrón de diseño para evitar fallos en cascada",
+      "Una herramienta para la integración continua",
+      "Un servicio para gestionar bases de datos"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 217
+  },
+  {
+    "question": "¿Qué técnica se utiliza para garantizar la alta disponibilidad de microservicios?",
+    "options": [
+      "Replicación de datos en un único servidor",
+      "Uso de bases de datos en memoria",
+      "Despliegue en múltiples instancias y zonas geográficas",
+      "Uso de una única instancia de microservicio"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 218
+  },
+  {
+    "question": "¿Qué tipo de pruebas son más complejas en una arquitectura de microservicios?",
+    "options": [
+      "Pruebas unitarias",
+      "Pruebas de integración y de sistemas",
+      "Pruebas de rendimiento",
+      "Pruebas de seguridad"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 219
+  },
+  {
+    "question": "¿Qué enfoque de monitoreo es más adecuado para una arquitectura de microservicios?",
+    "options": [
+      "Monitoreo centralizado",
+      "Monitoreo individual por cada microservicio",
+      "Monitoreo solo del API Gateway",
+      "Monitoreo sin registros"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 220
+  },
+  {
+    "question": "¿Qué es un \"Service Discovery\" en microservicios?",
+    "options": [
+      "Un mecanismo para descubrir nuevas bases de datos",
+      "Un patrón para encontrar y comunicar servicios dentro de una red",
+      "Un servicio para autenticar usuarios",
+      "Un sistema de mensajería en tiempo real"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 221
+  },
+  {
+    "question": "¿Qué es el \"Event-Driven Architecture\" en microservicios?",
+    "options": [
+      "Un modelo de procesamiento basado en eventos para mejorar la comunicación entre microservicios",
+      "Un tipo de base de datos distribuida",
+      "Un patrón de diseño para optimizar el rendimiento de las bases de datos",
+      "Un sistema para almacenar logs de eventos"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 222
+  },
+  {
+    "question": "¿Qué tipo de servicios son comunes en una arquitectura de microservicios?",
+    "options": [
+      "Servicios de computación centralizada",
+      "Servicios autónomos e independientes",
+      "Servicios que comparten datos entre sí",
+      "Servicios que dependen de un único servidor"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 223
+  },
+  {
+    "question": "¿Cómo se maneja la consistencia de datos en una arquitectura de microservicios?",
+    "options": [
+      "Usando una base de datos global",
+      "Asegurando la consistencia a través de transacciones distribuidas",
+      "Usando bases de datos en memoria",
+      "Permitiendo inconsistencias temporales y resolviéndolas posteriormente"
+    ],
+    "correctAnswer": 3,
+    "answered": false,
+    "id": 224
+  },
+  {
+    "question": "¿Qué herramienta se utiliza comúnmente para la integración continua en microservicios?",
+    "options": [
+      "Jenkins",
+      "MongoDB",
+      "RabbitMQ",
+      "Redis"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 225
+  },
+  {
+    "question": "¿Qué es la \"Descentralización\" en microservicios?",
+    "options": [
+      "Cuando todos los microservicios se conectan a una base de datos centralizada",
+      "Cuando cada microservicio maneja su propio ciclo de vida, datos y lógica de negocio",
+      "Cuando los microservicios dependen de un único servicio maestro",
+      "Cuando los microservicios operan sin necesidad de interacción"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 226
+  },
+  {
+    "question": "¿Cómo se realiza el escalado de un microservicio?",
+    "options": [
+      "Escalando toda la infraestructura monolítica",
+      "Agregando más instancias de microservicio según demanda",
+      "Mejorando el rendimiento de la base de datos central",
+      "Reemplazando el microservicio con otro"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 227
+  },
+  {
+    "question": "¿Cuál de los siguientes frameworks es comúnmente utilizado para crear microservicios en Java?",
+    "options": [
+      "Spring Boot",
+      "Hibernate",
+      "JavaFX",
+      "JUnit"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 228
+  },
+  {
+    "question": "¿Qué es Spring Cloud?",
+    "options": [
+      "Un servicio para administrar bases de datos",
+      "Un conjunto de herramientas para crear microservicios distribuidos con Spring",
+      "Un protocolo de comunicación para microservicios",
+      "Un servidor de aplicaciones Java"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 229
+  },
+  {
+    "question": "¿Cuál es la principal ventaja de usar Spring Boot para crear microservicios?",
+    "options": [
+      "Simplificación del despliegue",
+      "Mayor tiempo de desarrollo",
+      "Necesidad de más configuración",
+      "Escalabilidad limitada"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 230
+  },
+  {
+    "question": "¿Qué anotación de Spring Boot se utiliza para crear un controlador REST?",
+    "options": [
+      "@Service",
+      "@Controller",
+      "@RestController",
+      "@Repository"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 231
+  },
+  {
+    "question": "¿Qué función cumple Netflix Eureka en una arquitectura de microservicios?",
+    "options": [
+      "Un sistema de mensajería",
+      "Un sistema de descubrimiento de servicios",
+      "Un servidor web para aplicaciones Java",
+      "Un balanceador de carga"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 232
+  },
+  {
+    "question": "¿Qué es un API Gateway en la arquitectura de microservicios en Java?",
+    "options": [
+      "Un servicio que ejecuta los microservicios en contenedores",
+      "Un punto de entrada único para las solicitudes hacia los microservicios",
+      "Un patrón de diseño para dividir servicios",
+      "Un servicio de base de datos centralizado"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 233
+  },
+  {
+    "question": "¿Qué herramienta de Spring se utiliza para implementar la configuración centralizada en una arquitectura de microservicios?",
+    "options": [
+      "Spring Data",
+      "Spring Kafka",
+      "Spring Cloud Config",
+      "Spring Batch"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 234
+  },
+  {
+    "question": "¿Cuál es la principal ventaja de utilizar bases de datos distribuidas en microservicios con Spring?",
+    "options": [
+      "Permite que los servicios dependan de una sola base de datos",
+      "Cada microservicio maneja su propia base de datos, evitando el acoplamiento",
+      "Se disminuye la complejidad de la arquitectura",
+      "Es más sencillo realizar las copias de seguridad"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 235
+  },
+  {
+    "question": "¿Qué es el patrón Circuit Breaker en microservicios en Java?",
+    "options": [
+      "Un mecanismo para evitar que los fallos en un servicio afecten a otros",
+      "Un sistema de control de versiones para microservicios",
+      "Un protocolo de comunicación entre microservicios",
+      "Un algoritmo de búsqueda en bases de datos"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 236
+  },
+  {
+    "question": "¿Qué herramienta en Java se usa comúnmente para la mensajería asincrónica entre microservicios?",
+    "options": [
+      "JMS (Java Message Service)",
+      "JavaMail",
+      "JavaFX",
+      "JPA (Java Persistence API)"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 237
+  },
+  {
+    "question": "¿Qué tipo de seguridad se debe implementar en una arquitectura de microservicios con Spring?",
+    "options": [
+      "Seguridad única en el API Gateway",
+      "Seguridad integrada en cada microservicio",
+      "No es necesario implementar seguridad",
+      "Seguridad solo en el servidor de bases de datos"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 238
+  },
+  {
+    "question": "¿Cómo se gestiona el registro y la monitorización de microservicios en Java?",
+    "options": [
+      "Usando Spring Boot Actuator",
+      "Usando JPA",
+      "Usando JavaFX",
+      "Usando Spring Security"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 239
+  },
+  {
+    "question": "¿Qué servicio de Spring se utiliza para el balanceo de carga en microservicios?",
+    "options": [
+      "Spring WebFlux",
+      "Spring Cloud Load Balancer",
+      "Spring Boot Starter",
+      "Spring Data JPA"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 240
+  },
+  {
+    "question": "¿Qué tipo de bases de datos es más común usar en arquitecturas de microservicios con Java?",
+    "options": [
+      "Bases de datos relacionales únicas para todos los servicios",
+      "Bases de datos NoSQL para todos los servicios",
+      "Cada microservicio tiene su propia base de datos independiente",
+      "Bases de datos distribuidas sin conexiones entre microservicios"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 241
+  },
+  {
+    "question": "¿Qué es un \"Service Registry\" en la arquitectura de microservicios en Java?",
+    "options": [
+      "Un servicio que gestiona las configuraciones globales",
+      "Un sistema para almacenar logs de servicios",
+      "Un sistema para registrar y localizar servicios en la red",
+      "Un servicio para actualizar las versiones de microservicios"
+    ],
+    "correctAnswer": 2,
+    "answered": false,
+    "id": 242
+  },
+  {
+    "question": "¿Qué patrón se utiliza para asegurar que un microservicio se comunique de manera asíncrona con otros?",
+    "options": [
+      "Pub/Sub (Publicar/Suscribir)",
+      "Singleton",
+      "Factory",
+      "Adapter"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 243
+  },
+  {
+    "question": "¿Qué biblioteca se usa en Java para implementar un cliente HTTP en un microservicio Spring Boot?",
+    "options": [
+      "RestTemplate",
+      "EntityManager",
+      "JPA",
+      "JavaMail"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 244
+  },
+  {
+    "question": "¿Qué es el patrón \"API Gateway\" en una arquitectura de microservicios?",
+    "options": [
+      "Un punto de acceso único para todas las solicitudes de los clientes",
+      "Un sistema de bases de datos",
+      "Un servidor para gestionar contenedores",
+      "Un patrón de mensajería entre microservicios"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 245
+  },
+  {
+    "question": "¿Qué anotación de Spring se utiliza para inyectar dependencias en un microservicio?",
+    "options": [
+      "@Entity",
+      "@Autowired",
+      "@Component",
+      "@Service"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 246
+  },
+  {
+    "question": "¿Qué es un \"Choreography\" en una arquitectura de microservicios?",
+    "options": [
+      "Un modelo centralizado de comunicación",
+      "Un enfoque de comunicación entre microservicios basado en eventos donde no hay un coordinador central",
+      "Un servicio de gestión de bases de datos",
+      "Un algoritmo de balanceo de carga"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 247
+  },
+  {
+    "question": "¿Qué framework de .NET es comúnmente utilizado para crear microservicios?",
+    "options": [
+      "ASP.NET Core",
+      "WinForms",
+      "WPF",
+      "Entity Framework"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 248
+  },
+  {
+    "question": "¿Qué patrón de diseño se utiliza comúnmente para la autenticación y autorización en microservicios en .NET?",
+    "options": [
+      "OAuth 2.0",
+      "Singleton",
+      "Observer",
+      "Proxy"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 249
+  },
+  {
+    "question": "¿Cuál es la principal ventaja de usar contenedores (como Docker) en microservicios en .NET?",
+    "options": [
+      "Aislamiento de servicios",
+      "Mayor complejidad en el desarrollo",
+      "Consumo reducido de memoria",
+      "Menor tiempo de despliegue"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 250
+  },
+  {
+    "question": "¿Qué herramienta de .NET se utiliza para gestionar la configuración centralizada en una arquitectura de microservicios?",
+    "options": [
+      "Azure Key Vault",
+      "Entity Framework",
+      "ASP.NET Identity",
+      "SQL Server Management Studio"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 251
+  },
+  {
+    "question": "¿Qué biblioteca de .NET se usa para la mensajería asincrónica entre microservicios?",
+    "options": [
+      "SignalR",
+      "RabbitMQ",
+      "SQL Server",
+      "EF Core"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 252
+  },
+  {
+    "question": "¿Qué es un API Gateway en la arquitectura de microservicios en .NET?",
+    "options": [
+      "Un servicio de autenticación único para todos los microservicios",
+      "Un servicio que actúa como punto de entrada y enruta las solicitudes a los microservicios correspondientes",
+      "Un microservicio que gestiona las bases de datos",
+      "Un servicio para la creación de interfaces de usuario"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 253
+  },
+  {
+    "question": "¿Qué patrón se utiliza para garantizar que los microservicios continúen funcionando a pesar de fallos?",
+    "options": [
+      "Circuit Breaker",
+      "Proxy",
+      "Singleton",
+      "Facade"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 254
+  },
+  {
+    "question": "¿Qué es el \"Service Discovery\" en una arquitectura de microservicios en .NET?",
+    "options": [
+      "Un patrón para gestionar bases de datos distribuidas",
+      "Un mecanismo para registrar y localizar microservicios dentro de una red",
+      "Un sistema para gestionar la seguridad de microservicios",
+      "Un servicio para autenticar a los usuarios"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 255
+  },
+  {
+    "question": "¿Qué es un \"Container Orchestration\" en microservicios de .NET?",
+    "options": [
+      "Un sistema para gestionar bases de datos distribuidas",
+      "Una herramienta para gestionar la ejecución de múltiples contenedores",
+      "Un patrón de diseño para la creación de microservicios",
+      "Una librería de autenticación para servicios distribuidos"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 256
+  },
+  {
+    "question": "¿Qué es un \"Event-Driven Architecture\" en microservicios en .NET?",
+    "options": [
+      "Un patrón para estructurar la base de datos",
+      "Un patrón de comunicación entre microservicios basado en eventos y mensajes",
+      "Un sistema de mensajería con bases de datos SQL",
+      "Un modelo de procesamiento de datos síncrono"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 257
+  },
+  {
+    "question": "¿Qué librería de .NET se utiliza para la persistencia de datos en microservicios?",
+    "options": [
+      "Entity Framework Core",
+      "ASP.NET Core",
+      "Azure Functions",
+      "Windows Forms"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 258
+  },
+  {
+    "question": "¿Qué es la \"Descentralización de bases de datos\" en microservicios?",
+    "options": [
+      "Todos los microservicios usan la misma base de datos centralizada",
+      "Cada microservicio tiene su propia base de datos, de modo que cada servicio puede gestionar su persistencia de forma independiente",
+      "Se utiliza solo una base de datos NoSQL para todos los microservicios",
+      "Los microservicios no necesitan una base de datos"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 259
+  },
+  {
+    "question": "¿Qué servicio en Azure es comúnmente utilizado para administrar la identidad y el acceso en una arquitectura de microservicios?",
+    "options": [
+      "Azure Cosmos DB",
+      "Azure Active Directory",
+      "Azure Functions",
+      "Azure Kubernetes Service"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 260
+  },
+  {
+    "question": "¿Qué patrón de diseño se usa para dividir el acceso a la información de lectura y escritura en microservicios?",
+    "options": [
+      "CQRS (Command Query Responsibility Segregation)",
+      "Singleton",
+      "Adapter",
+      "Composite"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 261
+  },
+  {
+    "question": "¿Cuál es la ventaja de usar un API Gateway en microservicios con .NET?",
+    "options": [
+      "Centraliza las peticiones y las distribuye a los microservicios apropiados",
+      "Realiza todas las operaciones de base de datos",
+      "Proporciona servicios de computación en la nube",
+      "Ejecuta microservicios dentro de un contenedor"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 262
+  },
+  {
+    "question": "¿Qué es \"Resiliencia\" en el contexto de microservicios?",
+    "options": [
+      "La capacidad de los microservicios para conectarse a una base de datos",
+      "La capacidad de los microservicios de seguir funcionando correctamente a pesar de fallos o problemas",
+      "La capacidad de los microservicios para almacenar datos de forma eficiente",
+      "La capacidad de los microservicios de iniciar múltiples procesos"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 263
+  },
+  {
+    "question": "¿Qué tecnología se utiliza comúnmente en microservicios para orquestar la ejecución de contenedores?",
+    "options": [
+      "Azure App Services",
+      "Kubernetes",
+      "Azure SQL Database",
+      "Docker Compose"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 264
+  },
+  {
+    "question": "¿Qué es el patrón \"Saga\" en una arquitectura de microservicios?",
+    "options": [
+      "Un patrón para gestionar transacciones distribuidas y mantener la coherencia",
+      "Un sistema para manejar errores en microservicios",
+      "Un servicio de mensajería",
+      "Un tipo de base de datos NoSQL"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 265
+  },
+  {
+    "question": "¿Qué componente de DOTNET se utiliza para integrar microservicios con eventos y mensajes en tiempo real?",
+    "options": [
+      "ASP.NET Web API",
+      "SignalR",
+      "Entity Framework Core",
+      "Azure Blob Storage"
+    ],
+    "correctAnswer": 1,
+    "answered": false,
+    "id": 266
+  },
+  {
+    "question": "¿Qué patrón de diseño se utiliza para asegurar que un microservicio no dependa directamente de la disponibilidad de otros microservicios?",
+    "options": [
+      "Circuit Breaker",
+      "Singleton",
+      "Factory",
+      "Composite"
+    ],
+    "correctAnswer": 0,
+    "answered": false,
+    "id": 267
   }
 ]
